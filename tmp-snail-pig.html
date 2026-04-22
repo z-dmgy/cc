@@ -1,0 +1,254 @@
+<!doctype html>
+  <html lang="zh-CN">
+    <head>
+      <meta charset="utf-8" />
+      <title>Animal Cards PDF 37</title>
+      <style>
+        @page {
+          size: A4;
+          margin: 0;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          width: 210mm;
+          background: #fff;
+          color: #17221b;
+          font-family: "Microsoft YaHei", "SimSun", Arial, sans-serif;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+
+        .page {
+          width: 210mm;
+          height: 297mm;
+          display: grid;
+          grid-template-columns: repeat(3, 70mm);
+          grid-template-rows: repeat(8, 36.7mm);
+          align-content: start;
+          overflow: hidden;
+          break-after: page;
+          page-break-after: always;
+        }
+
+        .page:last-child {
+          break-after: auto;
+          page-break-after: auto;
+        }
+
+        .cell {
+          width: 70mm;
+          height: 36.7mm;
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+        }
+
+        .card {
+          width: 100%;
+          height: 100%;
+          border: 0;
+          border-radius: 0;
+          margin: 0;
+          padding: 1.1mm;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          overflow: hidden;
+          background: #fff;
+        }
+
+        .layout-37 .cell:nth-child(3n) .card {
+          transform: translateX(1em);
+          width: calc(100% - 1em);
+        }
+
+        .layout-37 .cell:nth-child(n + 16) {
+          padding-top: 10.6mm;
+        }
+
+        .layout-37 .cell:nth-child(n + 16) .title {
+          font-size: 7.7pt;
+          gap: 0.8mm;
+          line-height: 1.04;
+          margin-bottom: 0.7mm;
+        }
+
+        .layout-37 .cell:nth-child(n + 16) .title-compact {
+          font-size: 7.35pt;
+        }
+
+        .layout-37 .cell:nth-child(n + 16) .qa {
+          font-size: 8.5pt;
+          line-height: 1.04;
+          margin-top: 0.18mm;
+        }
+
+        .layout-37 .cell:nth-child(n + 16) .answer {
+          margin-top: 0.05mm;
+        }
+
+        .layout-37 .cell:nth-child(n + 16) .zh {
+          font-size: 5.1pt;
+          line-height: 1.02;
+          margin-top: 0;
+        }
+
+        .title {
+          align-items: baseline;
+          display: flex;
+          flex-wrap: nowrap;
+          font-weight: 700;
+          gap: 1.2mm;
+          line-height: 1.12;
+          margin-bottom: 1.2mm;
+          min-width: 0;
+          white-space: nowrap;
+        }
+
+        .title > span:first-child {
+          flex: 0 1 auto;
+          min-width: 0;
+          overflow-wrap: anywhere;
+        }
+
+        .small .title {
+          font-size: 8.9pt;
+        }
+
+        .large .title {
+          font-size: 11.5pt;
+        }
+
+        .small .title-compact {
+          font-size: 8.4pt;
+          flex-wrap: wrap;
+          row-gap: 0.1mm;
+          white-space: normal;
+        }
+
+        .large .title-compact {
+          font-size: 11pt;
+          flex-wrap: wrap;
+          row-gap: 0.3mm;
+          white-space: normal;
+        }
+
+        .ipa {
+          flex: 0 0 auto;
+          font-family:
+            "Charis SIL",
+            "Doulos SIL",
+            "Gentium Plus",
+            "Segoe UI",
+            "Arial Unicode MS",
+            "Times New Roman",
+            serif;
+        }
+
+        .verb {
+          flex: 0 0 auto;
+        }
+
+        .qa {
+          line-height: 1.15;
+          margin-top: 0.45mm;
+        }
+
+        .answer {
+          margin-top: 0.15mm;
+        }
+
+        .zh {
+          color: #526259;
+          font-size: 6.1pt;
+          margin-top: 0.05mm;
+        }
+
+        .small .qa {
+          font-size: 10.1pt;
+        }
+
+        .large .qa {
+          font-size: 11.8pt;
+        }
+
+        .small.qa-smaller .qa {
+          font-size: 8.4pt;
+        }
+
+        .small.qa-smaller .title {
+          font-size: 7.2pt;
+          gap: 0.6mm;
+          line-height: 1.02;
+        }
+
+        .small.qa-smaller .title-compact {
+          font-size: 6.9pt;
+        }
+
+        .small.qa-smaller .answer {
+          margin-top: 0.05mm;
+        }
+
+        .small.qa-smaller .zh {
+          font-size: 5pt;
+          margin-top: 0;
+        }
+
+        .large.qa-smaller .qa {
+          font-size: 10.8pt;
+        }
+
+        strong {
+          font-weight: 800;
+        }
+      </style>
+    </head>
+    <body>
+      
+    <section class="page layout-37">
+      <div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蜗牛 · snail</span>
+        <strong class="ipa">/sne?l/</strong>
+        <span class="verb">V:<strong>appear</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the snail <strong>appear</strong> after rain?</div>
+        <div class="answer">Yes, it can <strong>appear</strong> after rain.</div>
+        <div class="zh">(是的，它会在雨后出现。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can the update <strong>appear</strong> on the screen now?</div>
+        <div class="answer">Yes, the update can <strong>appear</strong> on the screen now.</div>
+        <div class="zh">(是的，更新现在可以显示在屏幕上。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>猪 · pig</span>
+        <strong class="ipa">/p?ɡ/</strong>
+        <span class="verb">V:<strong>serve</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can this picture <strong>serve</strong> the pig lesson well?</div>
+        <div class="answer">Yes, it can <strong>serve</strong> the pig lesson well.</div>
+        <div class="zh">(是的，这张图片很适合上猪这一课。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can this chart <strong>serve</strong> the report well?</div>
+        <div class="answer">Yes, this chart can <strong>serve</strong> the report well.</div>
+        <div class="zh">(是的，这张图表可以用于报告。)</div>
+      </div>
+    </article></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    </section>
+    </body>
+  </html>

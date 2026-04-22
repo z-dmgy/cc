@@ -1,0 +1,3 @@
+﻿display_name: Animal Card Content
+short_description: Generate strict bilingual animal cards for a Next.js site.
+default_prompt: Build or update animal-card data using the animal-card-content schema and validation rules.

@@ -1,0 +1,1562 @@
+<!doctype html>
+  <html lang="zh-CN">
+    <head>
+      <meta charset="utf-8" />
+      <title>Animal Cards PDF 37</title>
+      <style>
+        @page {
+          size: A4;
+          margin: 0;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          width: 210mm;
+          background: #fff;
+          color: #17221b;
+          font-family: "Microsoft YaHei", "SimSun", Arial, sans-serif;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+
+        .page {
+          width: 210mm;
+          height: 297mm;
+          display: grid;
+          grid-template-columns: repeat(3, 70mm);
+          grid-template-rows: repeat(8, 36.7mm);
+          align-content: start;
+          overflow: hidden;
+          break-after: page;
+          page-break-after: always;
+        }
+
+        .page:last-child {
+          break-after: auto;
+          page-break-after: auto;
+        }
+
+        .cell {
+          width: 70mm;
+          height: 36.7mm;
+          padding: 0;
+          margin: 0;
+          overflow: hidden;
+        }
+
+        .card {
+          width: 100%;
+          height: 100%;
+          border: 0;
+          border-radius: 0;
+          margin: 0;
+          padding: 1.1mm;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          overflow: hidden;
+          background: #fff;
+        }
+
+        .layout-37 .cell:nth-child(3n) .card {
+          transform: translateX(1em);
+          width: calc(100% - 1em);
+        }
+
+        .layout-37 .cell:nth-child(n + 16) {
+          padding-top: 10.6mm;
+        }
+
+        .title {
+          align-items: baseline;
+          display: flex;
+          flex-wrap: nowrap;
+          font-weight: 700;
+          gap: 1.2mm;
+          line-height: 1.12;
+          margin-bottom: 1.2mm;
+          min-width: 0;
+          white-space: nowrap;
+        }
+
+        .title > span:first-child {
+          flex: 0 1 auto;
+          min-width: 0;
+          overflow-wrap: anywhere;
+        }
+
+        .small .title {
+          font-size: 8.9pt;
+        }
+
+        .large .title {
+          font-size: 11.5pt;
+        }
+
+        .small .title-compact {
+          font-size: 8.4pt;
+          flex-wrap: wrap;
+          row-gap: 0.1mm;
+          white-space: normal;
+        }
+
+        .large .title-compact {
+          font-size: 11pt;
+          flex-wrap: wrap;
+          row-gap: 0.3mm;
+          white-space: normal;
+        }
+
+        .ipa {
+          flex: 0 0 auto;
+          font-family:
+            "Charis SIL",
+            "Doulos SIL",
+            "Gentium Plus",
+            "Segoe UI",
+            "Arial Unicode MS",
+            "Times New Roman",
+            serif;
+        }
+
+        .verb {
+          flex: 0 0 auto;
+        }
+
+        .qa {
+          line-height: 1.15;
+          margin-top: 0.45mm;
+        }
+
+        .answer {
+          margin-top: 0.15mm;
+        }
+
+        .zh {
+          color: #526259;
+          font-size: 6.1pt;
+          margin-top: 0.05mm;
+        }
+
+        .small .qa {
+          font-size: 10.1pt;
+        }
+
+        .large .qa {
+          font-size: 11.8pt;
+        }
+
+        .small.qa-smaller .qa {
+          font-size: 8.4pt;
+        }
+
+        .small.qa-smaller .title {
+          font-size: 7.2pt;
+          gap: 0.6mm;
+          line-height: 1.02;
+        }
+
+        .small.qa-smaller .title-compact {
+          font-size: 6.9pt;
+        }
+
+        .small.qa-smaller .answer {
+          margin-top: 0.05mm;
+        }
+
+        .small.qa-smaller .zh {
+          font-size: 5pt;
+          margin-top: 0;
+        }
+
+        .large.qa-smaller .qa {
+          font-size: 10.8pt;
+        }
+
+        strong {
+          font-weight: 800;
+        }
+      </style>
+    </head>
+    <body>
+      
+    <section class="page layout-37">
+      <div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鳄鱼 · crocodile</span>
+        <strong class="ipa">/?kr?k??da?l/</strong>
+        <span class="verb">V:<strong>be</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the crocodile <strong>be</strong> in the water?</div>
+        <div class="answer">Yes, it can <strong>be</strong> in the water.</div>
+        <div class="zh">(是的，它可以在水里。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can the report <strong>be</strong> on the desk?</div>
+        <div class="answer">Yes, the report can <strong>be</strong> on the desk.</div>
+        <div class="zh">(是的，报告可以在桌子上。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>河马 · hippo</span>
+        <strong class="ipa">/?h?p??/</strong>
+        <span class="verb">V:<strong>have</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Does the hippo <strong>have</strong> a big mouth?</div>
+        <div class="answer">Yes, it has a big mouth.</div>
+        <div class="zh">(是的，它有一张大嘴。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>have</strong> the report?</div>
+        <div class="answer">Yes, I <strong>have</strong> the report.</div>
+        <div class="zh">(是的，我确实有这份报告。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>猫 · cat</span>
+        <strong class="ipa">/k?t/</strong>
+        <span class="verb">V:<strong>do</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the cat <strong>do</strong> quick jumps?</div>
+        <div class="answer">Yes, it can <strong>do</strong> quick jumps.</div>
+        <div class="zh">(是的，它会快速跳跃。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>do</strong> the task now?</div>
+        <div class="answer">Yes, we can <strong>do</strong> the task now.</div>
+        <div class="zh">(是的，我们现在可以做这个任务。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蚊子 · mosquito</span>
+        <strong class="ipa">/m??ski?t??/</strong>
+        <span class="verb">V:<strong>say</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>say</strong> mosquito?</div>
+        <div class="answer">Yes, we can <strong>say</strong> mosquito.</div>
+        <div class="zh">(是的，我们可以说 mosquito。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>say</strong> it again?</div>
+        <div class="answer">Yes, I can <strong>say</strong> it again.</div>
+        <div class="zh">(是的，我可以再说一遍。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>浣熊 · raccoon</span>
+        <strong class="ipa">/r??ku?n/</strong>
+        <span class="verb">V:<strong>go</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the raccoon <strong>go</strong> up the tree?</div>
+        <div class="answer">Yes, it can <strong>go</strong> up the tree.</div>
+        <div class="zh">(是的，它可以爬到树上。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>go</strong> to the meeting room now?</div>
+        <div class="answer">Yes, we can <strong>go</strong> to the meeting room now.</div>
+        <div class="zh">(是的，我们现在可以去会议室。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海螺 · conch</span>
+        <strong class="ipa">/k?nt?/</strong>
+        <span class="verb">V:<strong>get</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>get</strong> a conch by the sea?</div>
+        <div class="answer">Yes, we can <strong>get</strong> a conch by the sea.</div>
+        <div class="zh">(是的，我们可以在海边找到海螺。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>get</strong> the file now?</div>
+        <div class="answer">Yes, I can <strong>get</strong> the file now.</div>
+        <div class="zh">(是的，我现在可以去拿文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>马 · horse</span>
+        <strong class="ipa">/h??s/</strong>
+        <span class="verb">V:<strong>make</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the horse <strong>make</strong> a loud sound?</div>
+        <div class="answer">Yes, it can <strong>make</strong> a loud sound.</div>
+        <div class="zh">(是的，它会发出很大的声音。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>make</strong> a new plan?</div>
+        <div class="answer">Yes, we can <strong>make</strong> a new plan.</div>
+        <div class="zh">(是的，我们今天可以制定新计划。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蜻蜓 · dragonfly</span>
+        <strong class="ipa">/?dr?ɡ?nfla?/</strong>
+        <span class="verb">V:<strong>know</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>know</strong> the dragonfly?</div>
+        <div class="answer">Yes, we <strong>know</strong> the dragonfly.</div>
+        <div class="zh">(是的，我们认识蜻蜓。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>know</strong> the client?</div>
+        <div class="answer">Yes, I <strong>know</strong> the client.</div>
+        <div class="zh">(是的，我认识这位客户。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>北极熊 · polar bear</span>
+        <strong class="ipa">/?p??l? be?/</strong>
+        <span class="verb">V:<strong>think</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>think</strong> the polar bear is strong?</div>
+        <div class="answer">Yes, I <strong>think</strong> it is strong.</div>
+        <div class="zh">(是的，我觉得它很强壮。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>think</strong> the plan will work?</div>
+        <div class="answer">Yes, I <strong>think</strong> the plan will work.</div>
+        <div class="zh">(是的，我觉得这个计划可行。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海豹 · seal</span>
+        <strong class="ipa">/si?l/</strong>
+        <span class="verb">V:<strong>take</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the seal <strong>take</strong> a quick dive?</div>
+        <div class="answer">Yes, it can <strong>take</strong> a quick dive.</div>
+        <div class="zh">(是的，它可以快速潜水。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>take</strong> the call now?</div>
+        <div class="answer">Yes, I can <strong>take</strong> the call now.</div>
+        <div class="zh">(是的，我现在可以接这个电话。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海象 · walrus</span>
+        <strong class="ipa">/?w??lr?s/</strong>
+        <span class="verb">V:<strong>see</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>see</strong> the walrus clearly?</div>
+        <div class="answer">Yes, we can <strong>see</strong> it clearly.</div>
+        <div class="zh">(是的，我们能清楚地看见它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>see</strong> the change clearly?</div>
+        <div class="answer">Yes, I can <strong>see</strong> the change clearly.</div>
+        <div class="zh">(是的，我能看到文件里的更新。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海龟 · sea turtle</span>
+        <strong class="ipa">/si? ?t??tl/</strong>
+        <span class="verb">V:<strong>come</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the sea turtle <strong>come</strong> out at night?</div>
+        <div class="answer">Yes, it can <strong>come</strong> out at night.</div>
+        <div class="zh">(是的，它会在夜里出来。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>come</strong> here now?</div>
+        <div class="answer">Yes, I can <strong>come</strong> here now.</div>
+        <div class="zh">(是的，我现在可以过来。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鲨鱼 · shark</span>
+        <strong class="ipa">/?ɑ?k/</strong>
+        <span class="verb">V:<strong>want</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>want</strong> the shark card?</div>
+        <div class="answer">Yes, I <strong>want</strong> the shark card.</div>
+        <div class="zh">(是的，我想要鲨鱼卡片。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>want</strong> to join the call?</div>
+        <div class="answer">Yes, I <strong>want</strong> to join the call.</div>
+        <div class="zh">(是的，我想加入通话。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海豚 · dolphin</span>
+        <strong class="ipa">/?d?lf?n/</strong>
+        <span class="verb">V:<strong>look</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>look</strong> at the dolphin?</div>
+        <div class="answer">Yes, we can <strong>look</strong> at it.</div>
+        <div class="zh">(是的，我们可以看看它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>look</strong> at this chart?</div>
+        <div class="answer">Yes, I can <strong>look</strong> at this chart.</div>
+        <div class="zh">(是的，我可以看看这张图表。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>喜鹊 · magpie</span>
+        <strong class="ipa">/?m?ɡpa?/</strong>
+        <span class="verb">V:<strong>use</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>use</strong> the magpie card?</div>
+        <div class="answer">Yes, we can <strong>use</strong> the magpie card.</div>
+        <div class="zh">(是的，我们可以用喜鹊卡片。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>use</strong> this template?</div>
+        <div class="answer">Yes, we can <strong>use</strong> this template.</div>
+        <div class="zh">(是的，我们今天可以用这个模板。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>公鸡 · rooster</span>
+        <strong class="ipa">/?ru?st?/</strong>
+        <span class="verb">V:<strong>find</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>find</strong> the rooster?</div>
+        <div class="answer">Yes, we can <strong>find</strong> it.</div>
+        <div class="zh">(是的，我们可以找到它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>find</strong> the file?</div>
+        <div class="answer">Yes, I can <strong>find</strong> the file.</div>
+        <div class="zh">(是的，我能找到最新文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small qa-smaller">
+      <div class="title title-compact">
+        <span>丹顶鹤 · red-crowned crane</span>
+        <strong class="ipa">/red kra?nd kre?n/</strong>
+        <span class="verb">V:<strong>give</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>give</strong> the crane some food?</div>
+        <div class="answer">Yes, we can <strong>give</strong> it some food.</div>
+        <div class="zh">(是的，我们可以给它一些食物。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>give</strong> me the report now?</div>
+        <div class="answer">Yes, I can <strong>give</strong> you the report now.</div>
+        <div class="zh">(是的，我现在可以把报告给你。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>兔子 · rabbit</span>
+        <strong class="ipa">/?r?b?t/</strong>
+        <span class="verb">V:<strong>tell</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>tell</strong> me about the rabbit?</div>
+        <div class="answer">Yes, I can <strong>tell</strong> you about it.</div>
+        <div class="zh">(是的，我可以给你讲讲它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>tell</strong> me the deadline?</div>
+        <div class="answer">Yes, I can <strong>tell</strong> you the deadline.</div>
+        <div class="zh">(是的，我可以告诉你截止时间。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>骆驼 · camel</span>
+        <strong class="ipa">/?k?ml/</strong>
+        <span class="verb">V:<strong>work</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the camel <strong>work</strong> for a long time?</div>
+        <div class="answer">Yes, it can <strong>work</strong> for a long time.</div>
+        <div class="zh">(是的，它可以活动很久。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can this plan <strong>work</strong> for the team?</div>
+        <div class="answer">Yes, this plan can <strong>work</strong> for the team.</div>
+        <div class="zh">(是的，这个计划适合团队。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鸽子 · pigeon</span>
+        <strong class="ipa">/?p?d??n/</strong>
+        <span class="verb">V:<strong>call</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>call</strong> this bird a pigeon?</div>
+        <div class="answer">Yes, we can <strong>call</strong> it a pigeon.</div>
+        <div class="zh">(是的，我们可以把它叫作鸽子。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>call</strong> the client now?</div>
+        <div class="answer">Yes, I can <strong>call</strong> the client now.</div>
+        <div class="zh">(是的，我现在可以给客户打电话。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>虾 · shrimp</span>
+        <strong class="ipa">/?r?mp/</strong>
+        <span class="verb">V:<strong>try</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the shrimp <strong>try</strong> to hide here?</div>
+        <div class="answer">Yes, it can <strong>try</strong> to hide here.</div>
+        <div class="zh">(是的，它会试着藏起来。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>try</strong> this new idea?</div>
+        <div class="answer">Yes, we can <strong>try</strong> this new idea.</div>
+        <div class="zh">(是的，我们今天可以试一个新想法。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>猴子 · monkey</span>
+        <strong class="ipa">/?m??ki/</strong>
+        <span class="verb">V:<strong>ask</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can I <strong>ask</strong> about the monkey?</div>
+        <div class="answer">Yes, you can <strong>ask</strong> about it.</div>
+        <div class="zh">(是的，你可以问关于它的问题。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can I <strong>ask</strong> for the file now?</div>
+        <div class="answer">Yes, you can <strong>ask</strong> for the file now.</div>
+        <div class="zh">(是的，你现在可以要这份文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>螃蟹 · crab</span>
+        <strong class="ipa">/kr?b/</strong>
+        <span class="verb">V:<strong>need</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Does the crab <strong>need</strong> clean water?</div>
+        <div class="answer">Yes, it needs clean water.</div>
+        <div class="zh">(是的，它需要干净的水。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do we <strong>need</strong> more time?</div>
+        <div class="answer">Yes, we <strong>need</strong> more time.</div>
+        <div class="zh">(是的，这个任务确实还需要更多时间。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鹿 · deer</span>
+        <strong class="ipa">/d??/</strong>
+        <span class="verb">V:<strong>feel</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Does the deer <strong>feel</strong> safe here?</div>
+        <div class="answer">Yes, it feels safe here.</div>
+        <div class="zh">(是的，它在这里觉得很安全。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>feel</strong> ready now?</div>
+        <div class="answer">Yes, I <strong>feel</strong> ready now.</div>
+        <div class="zh">(是的，我确实准备好打电话了。)</div>
+      </div>
+    </article></div>
+    </section>
+    <section class="page layout-37">
+      <div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鹦鹉 · parrot</span>
+        <strong class="ipa">/?p?r?t/</strong>
+        <span class="verb">V:<strong>become</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the parrot <strong>become</strong> quiet?</div>
+        <div class="answer">Yes, it can <strong>become</strong> quiet.</div>
+        <div class="zh">(是的，它可以变得安静。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can this idea <strong>become</strong> a project?</div>
+        <div class="answer">Yes, this idea can <strong>become</strong> a project.</div>
+        <div class="zh">(是的，这个想法可以变成项目。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>狮子 · lion</span>
+        <strong class="ipa">/?la??n/</strong>
+        <span class="verb">V:<strong>leave</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the lion <strong>leave</strong> the cave at night?</div>
+        <div class="answer">Yes, it can <strong>leave</strong> the cave at night.</div>
+        <div class="zh">(是的，它会在夜里离开洞穴。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>leave</strong> at six?</div>
+        <div class="answer">Yes, I can <strong>leave</strong> at six.</div>
+        <div class="zh">(是的，我可以六点离开办公室。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蚱蜢 · grasshopper</span>
+        <strong class="ipa">/?ɡrɑ?sh?p?/</strong>
+        <span class="verb">V:<strong>put</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>put</strong> the grasshopper card here?</div>
+        <div class="answer">Yes, we can <strong>put</strong> it here.</div>
+        <div class="zh">(是的，我们可以把它放在这里。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>put</strong> the file here?</div>
+        <div class="answer">Yes, I can <strong>put</strong> the file here.</div>
+        <div class="zh">(是的，我可以把文件放你桌上。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>貂 · mink</span>
+        <strong class="ipa">/m??k/</strong>
+        <span class="verb">V:<strong>mean</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Does this sign <strong>mean</strong> &quot;be careful&quot;?</div>
+        <div class="answer">Yes, it means &quot;be careful&quot;.</div>
+        <div class="zh">(是的，它的意思是“要小心”。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Does this note <strong>mean</strong> we should wait a little longer?</div>
+        <div class="answer">Yes, this note means we should wait a little longer.</div>
+        <div class="zh">(是的，这张便签表示我们应该再等一会儿。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蜘蛛 · spider</span>
+        <strong class="ipa">/?spa?d?/</strong>
+        <span class="verb">V:<strong>keep</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the spider <strong>keep</strong> still here?</div>
+        <div class="answer">Yes, it can <strong>keep</strong> still here.</div>
+        <div class="zh">(是的，它可以在这里保持不动。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>keep</strong> this file for me?</div>
+        <div class="answer">Yes, I can <strong>keep</strong> this file for you.</div>
+        <div class="zh">(是的，我可以替你保管这份文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蚂蚁 · ant</span>
+        <strong class="ipa">/?nt/</strong>
+        <span class="verb">V:<strong>let</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>let</strong> the ant pass first?</div>
+        <div class="answer">Yes, we can <strong>let</strong> it pass first.</div>
+        <div class="zh">(是的，我们可以让它先过去。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>let</strong> me in now?</div>
+        <div class="answer">Yes, I can <strong>let</strong> you in now.</div>
+        <div class="zh">(是的，我现在可以让你进来。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>狗 · dog</span>
+        <strong class="ipa">/d?ɡ/</strong>
+        <span class="verb">V:<strong>begin</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the dog <strong>begin</strong> to run now?</div>
+        <div class="answer">Yes, it can <strong>begin</strong> to run now.</div>
+        <div class="zh">(是的，它现在可以开始跑了。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>begin</strong> the meeting now?</div>
+        <div class="answer">Yes, we can <strong>begin</strong> the meeting now.</div>
+        <div class="zh">(是的，我们现在可以开始会议。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>老虎 · tiger</span>
+        <strong class="ipa">/?ta?ɡ?/</strong>
+        <span class="verb">V:<strong>seem</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Does the tiger <strong>seem</strong> calm today?</div>
+        <div class="answer">Yes, it seems calm today.</div>
+        <div class="zh">(是的，它今天看起来很平静。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Does the plan <strong>seem</strong> clear now?</div>
+        <div class="answer">Yes, the plan seems clear now.</div>
+        <div class="zh">(是的，这个计划现在看起来确实很清楚。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海马 · sea horse</span>
+        <strong class="ipa">/si? h??s/</strong>
+        <span class="verb">V:<strong>help</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>help</strong> the sea horse now?</div>
+        <div class="answer">Yes, we can <strong>help</strong> it now.</div>
+        <div class="zh">(是的，我们现在可以帮助它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>help</strong> me now?</div>
+        <div class="answer">Yes, I can <strong>help</strong> you now.</div>
+        <div class="zh">(是的，我现在可以帮你。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>变色龙 · chameleon</span>
+        <strong class="ipa">/k??mi?li?n/</strong>
+        <span class="verb">V:<strong>talk</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>talk</strong> about the chameleon?</div>
+        <div class="answer">Yes, we can <strong>talk</strong> about it.</div>
+        <div class="zh">(是的，我们可以聊聊它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>talk</strong> about the budget?</div>
+        <div class="answer">Yes, we can <strong>talk</strong> about the budget.</div>
+        <div class="zh">(是的，我们现在可以谈预算。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>熊猫 · panda</span>
+        <strong class="ipa">/?p?nd?/</strong>
+        <span class="verb">V:<strong>turn</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the panda <strong>turn</strong> around slowly?</div>
+        <div class="answer">Yes, it can <strong>turn</strong> around slowly.</div>
+        <div class="zh">(是的，它可以慢慢转身。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>turn</strong> the page now?</div>
+        <div class="answer">Yes, I can <strong>turn</strong> the page now.</div>
+        <div class="zh">(是的，我现在可以翻页。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>绵羊 · sheep</span>
+        <strong class="ipa">/?i?p/</strong>
+        <span class="verb">V:<strong>start</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the sheep <strong>start</strong> moving now?</div>
+        <div class="answer">Yes, it can <strong>start</strong> moving now.</div>
+        <div class="zh">(是的，它现在可以开始活动。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>start</strong> the lesson now?</div>
+        <div class="answer">Yes, we can <strong>start</strong> the lesson now.</div>
+        <div class="zh">(是的，我们现在可以开始这节课。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>企鹅 · penguin</span>
+        <strong class="ipa">/?pe?ɡw?n/</strong>
+        <span class="verb">V:<strong>show</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>show</strong> the penguin card again?</div>
+        <div class="answer">Yes, I can <strong>show</strong> it again.</div>
+        <div class="zh">(是的，我可以再给你看一次。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>show</strong> me the page now?</div>
+        <div class="answer">Yes, I can <strong>show</strong> you the page now.</div>
+        <div class="zh">(是的，我现在可以给你看这一页。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>翠鸟 · kingfisher</span>
+        <strong class="ipa">/?k??f???/</strong>
+        <span class="verb">V:<strong>hear</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>hear</strong> the kingfisher?</div>
+        <div class="answer">Yes, we can <strong>hear</strong> it.</div>
+        <div class="zh">(是的，我们能听到它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>hear</strong> me clearly?</div>
+        <div class="answer">Yes, I can <strong>hear</strong> you clearly.</div>
+        <div class="zh">(是的，我能清楚地听到你。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>章鱼 · octopus</span>
+        <strong class="ipa">/??kt?p?s/</strong>
+        <span class="verb">V:<strong>play</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the octopus <strong>play</strong> with a shell?</div>
+        <div class="answer">Yes, it can <strong>play</strong> with a shell.</div>
+        <div class="zh">(是的，它可以玩贝壳。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>play</strong> the video now?</div>
+        <div class="answer">Yes, we can <strong>play</strong> the video now.</div>
+        <div class="zh">(是的，我们现在可以播放视频。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>黑猩猩 · chimpanzee</span>
+        <strong class="ipa">/?t??mp?n?zi?/</strong>
+        <span class="verb">V:<strong>run</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the chimpanzee <strong>run</strong> very fast?</div>
+        <div class="answer">Yes, it can <strong>run</strong> very fast.</div>
+        <div class="zh">(是的，它可以跑得很快。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>run</strong> the program now?</div>
+        <div class="answer">Yes, I can <strong>run</strong> the program now.</div>
+        <div class="zh">(是的，我现在可以运行这个程序。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蜜蜂 · bee</span>
+        <strong class="ipa">/bi?/</strong>
+        <span class="verb">V:<strong>move</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the bee <strong>move</strong> from flower to flower?</div>
+        <div class="answer">Yes, it can <strong>move</strong> from flower to flower.</div>
+        <div class="zh">(是的，它会在花丛间飞来飞去。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>move</strong> the meeting to Friday?</div>
+        <div class="answer">Yes, we can <strong>move</strong> the meeting to Friday.</div>
+        <div class="zh">(是的，我们可以把会议改到周五。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>奶牛 · cow</span>
+        <strong class="ipa">/ka?/</strong>
+        <span class="verb">V:<strong>live</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the cow <strong>live</strong> on the farm?</div>
+        <div class="answer">Yes, it can <strong>live</strong> on the farm.</div>
+        <div class="zh">(是的，它可以生活在农场。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can this note stay in the report?</div>
+        <div class="answer">Yes, this note can stay in the report.</div>
+        <div class="zh">(是的，这条说明可以保留在报告里。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鸭子 · duck</span>
+        <strong class="ipa">/d?k/</strong>
+        <span class="verb">V:<strong>believe</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>believe</strong> the duck can swim?</div>
+        <div class="answer">Yes, I <strong>believe</strong> it can swim.</div>
+        <div class="zh">(是的，我相信它会游泳。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>believe</strong> this result?</div>
+        <div class="answer">Yes, I <strong>believe</strong> this result.</div>
+        <div class="zh">(是的，我相信这个结果。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>老鼠 · mouse</span>
+        <strong class="ipa">/ma?s/</strong>
+        <span class="verb">V:<strong>bring</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the mouse <strong>bring</strong> food home?</div>
+        <div class="answer">Yes, it can <strong>bring</strong> food home.</div>
+        <div class="zh">(是的，它可以把食物带回家。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>bring</strong> the contract tomorrow?</div>
+        <div class="answer">Yes, I can <strong>bring</strong> the contract tomorrow.</div>
+        <div class="zh">(是的，我可以把文件带给你。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>水母 · jellyfish</span>
+        <strong class="ipa">/?d?elif??/</strong>
+        <span class="verb">V:<strong>happen</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can a jellyfish sting you?</div>
+        <div class="answer">Yes, it can sting you.</div>
+        <div class="zh">(是的，它会蜇人。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can a delay <strong>happen</strong> after the update?</div>
+        <div class="answer">Yes, a delay can <strong>happen</strong> after the update.</div>
+        <div class="zh">(是的，更新后可能会出现延迟。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>母鸡 · hen</span>
+        <strong class="ipa">/hen/</strong>
+        <span class="verb">V:<strong>write</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>write</strong> about the hen?</div>
+        <div class="answer">Yes, I can <strong>write</strong> about it.</div>
+        <div class="zh">(是的，我可以写写它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>write</strong> the email now?</div>
+        <div class="answer">Yes, I can <strong>write</strong> the email now.</div>
+        <div class="zh">(是的，我现在可以写邮件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>松鼠 · squirrel</span>
+        <strong class="ipa">/?skw?r?l/</strong>
+        <span class="verb">V:<strong>sit</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the squirrel <strong>sit</strong> on the branch?</div>
+        <div class="answer">Yes, it can <strong>sit</strong> on the branch.</div>
+        <div class="zh">(是的，它可以坐在树枝上。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>sit</strong> here for the meeting?</div>
+        <div class="answer">Yes, I can <strong>sit</strong> here for the meeting.</div>
+        <div class="zh">(是的，我可以坐在这里开会。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>黄雀 · siskin</span>
+        <strong class="ipa">/?s?sk?n/</strong>
+        <span class="verb">V:<strong>stand</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the siskin <strong>stand</strong> on the branch?</div>
+        <div class="answer">Yes, it can <strong>stand</strong> on the branch.</div>
+        <div class="zh">(是的，它可以站在树枝上。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>stand</strong> by the screen?</div>
+        <div class="answer">Yes, I can <strong>stand</strong> by the screen.</div>
+        <div class="zh">(是的，我可以站在屏幕旁边。)</div>
+      </div>
+    </article></div>
+    </section>
+    <section class="page layout-37">
+      <div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>乌龟 · turtle</span>
+        <strong class="ipa">/?t??tl/</strong>
+        <span class="verb">V:<strong>lose</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the turtle <strong>lose</strong> its way?</div>
+        <div class="answer">Yes, it can <strong>lose</strong> its way.</div>
+        <div class="zh">(是的，它可能会迷路。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>lose</strong> the file?</div>
+        <div class="answer">Yes, we can <strong>lose</strong> the file.</div>
+        <div class="zh">(是的，我们可能会丢这个文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>猫头鹰 · owl</span>
+        <strong class="ipa">/a?l/</strong>
+        <span class="verb">V:<strong>pay</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>pay</strong> to see the owl?</div>
+        <div class="answer">Yes, we can <strong>pay</strong> to see it.</div>
+        <div class="zh">(是的，我们可以付费看它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>pay</strong> the bill today?</div>
+        <div class="answer">Yes, we can <strong>pay</strong> the bill today.</div>
+        <div class="zh">(是的，我们今天可以付款。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>孔雀 · peacock</span>
+        <strong class="ipa">/?pi?k?k/</strong>
+        <span class="verb">V:<strong>meet</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>meet</strong> the peacock today?</div>
+        <div class="answer">Yes, we can <strong>meet</strong> it today.</div>
+        <div class="zh">(是的，我们今天可以看到它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>meet</strong> the client today?</div>
+        <div class="answer">Yes, we can <strong>meet</strong> the client today.</div>
+        <div class="zh">(是的，我们今天可以见客户。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>燕子 · swallow</span>
+        <strong class="ipa">/?sw?l??/</strong>
+        <span class="verb">V:<strong>include</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can this picture <strong>include</strong> the swallow?</div>
+        <div class="answer">Yes, it can <strong>include</strong> the swallow.</div>
+        <div class="zh">(是的，这张图片可以放进燕子。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can the report <strong>include</strong> this chart?</div>
+        <div class="answer">Yes, the report can <strong>include</strong> this chart.</div>
+        <div class="zh">(是的，报告可以包含这张图表。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>牛 · cattle</span>
+        <strong class="ipa">/?k?tl/</strong>
+        <span class="verb">V:<strong>continue</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the cattle <strong>continue</strong> across the field?</div>
+        <div class="answer">Yes, they can <strong>continue</strong> across the field.</div>
+        <div class="zh">(是的，它们可以继续穿过草地。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>continue</strong> this task now?</div>
+        <div class="answer">Yes, we can <strong>continue</strong> this task now.</div>
+        <div class="zh">(是的，我们现在可以继续这个任务。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>鸵鸟 · ostrich</span>
+        <strong class="ipa">/??str?t?/</strong>
+        <span class="verb">V:<strong>learn</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can children <strong>learn</strong> about the ostrich?</div>
+        <div class="answer">Yes, children can <strong>learn</strong> about it.</div>
+        <div class="zh">(是的，孩子们可以认识它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>learn</strong> this tool today?</div>
+        <div class="answer">Yes, we can <strong>learn</strong> this tool today.</div>
+        <div class="zh">(是的，我们今天可以学这个工具。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>树袋熊 · koala</span>
+        <strong class="ipa">/k???ɑ?l?/</strong>
+        <span class="verb">V:<strong>change</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the koala <strong>change</strong> its place slowly?</div>
+        <div class="answer">Yes, it can <strong>change</strong> its place slowly.</div>
+        <div class="zh">(是的，它可以慢慢换位置。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>change</strong> the schedule now?</div>
+        <div class="answer">Yes, we can <strong>change</strong> the schedule now.</div>
+        <div class="zh">(是的，我们现在可以改日程。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>老鹰 · eagle</span>
+        <strong class="ipa">/?i?ɡl/</strong>
+        <span class="verb">V:<strong>lead</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the eagle <strong>lead</strong> the young birds?</div>
+        <div class="answer">Yes, it can <strong>lead</strong> the young birds.</div>
+        <div class="zh">(是的，它可以带着小鸟往前飞。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>lead</strong> the meeting today?</div>
+        <div class="answer">Yes, I can <strong>lead</strong> the meeting today.</div>
+        <div class="zh">(是的，我今天可以主持会议。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>长颈鹿 · giraffe</span>
+        <strong class="ipa">/d???rɑ?f/</strong>
+        <span class="verb">V:<strong>understand</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>understand</strong> this giraffe story?</div>
+        <div class="answer">Yes, I can <strong>understand</strong> it.</div>
+        <div class="zh">(是的，我能听懂这个故事。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>understand</strong> this chart now?</div>
+        <div class="answer">Yes, I can <strong>understand</strong> this chart now.</div>
+        <div class="zh">(是的，我现在能看懂这张图表。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>黄莺 · oriole</span>
+        <strong class="ipa">/???ri??l/</strong>
+        <span class="verb">V:<strong>watch</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>watch</strong> the oriole here?</div>
+        <div class="answer">Yes, we can <strong>watch</strong> it here.</div>
+        <div class="zh">(是的，我们可以在这里看它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>watch</strong> the demo now?</div>
+        <div class="answer">Yes, we can <strong>watch</strong> the demo now.</div>
+        <div class="zh">(是的，我们现在可以看演示。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>狼 · wolf</span>
+        <strong class="ipa">/w?lf/</strong>
+        <span class="verb">V:<strong>follow</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the young wolf <strong>follow</strong> its mother?</div>
+        <div class="answer">Yes, it can <strong>follow</strong> its mother.</div>
+        <div class="zh">(是的，它可以跟着妈妈。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>follow</strong> these steps now?</div>
+        <div class="answer">Yes, I can <strong>follow</strong> these steps now.</div>
+        <div class="zh">(是的，我现在可以按这些步骤来。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>天鹅 · swan</span>
+        <strong class="ipa">/sw?n/</strong>
+        <span class="verb">V:<strong>stop</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the swan <strong>stop</strong> by the lake?</div>
+        <div class="answer">Yes, it can <strong>stop</strong> by the lake.</div>
+        <div class="zh">(是的，它可以停在湖边。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>stop</strong> this task now?</div>
+        <div class="answer">Yes, we can <strong>stop</strong> this task now.</div>
+        <div class="zh">(是的，我们现在可以暂停这个任务。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>斑马 · zebra</span>
+        <strong class="ipa">/?zebr?/</strong>
+        <span class="verb">V:<strong>create</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the zebra <strong>create</strong> a safe path?</div>
+        <div class="answer">Yes, it can <strong>create</strong> a safe path.</div>
+        <div class="zh">(是的，它可以找到一条安全的路。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>create</strong> a new file now?</div>
+        <div class="answer">Yes, we can <strong>create</strong> a new file now.</div>
+        <div class="zh">(是的，我们现在可以新建文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>狐狸 · fox</span>
+        <strong class="ipa">/f?ks/</strong>
+        <span class="verb">V:<strong>speak</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>speak</strong> about the fox now?</div>
+        <div class="answer">Yes, we can <strong>speak</strong> about it now.</div>
+        <div class="zh">(是的，我们现在可以聊聊它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>speak</strong> in the meeting now?</div>
+        <div class="answer">Yes, I can <strong>speak</strong> in the meeting now.</div>
+        <div class="zh">(是的，我现在可以在会议上发言。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>麻雀 · sparrow</span>
+        <strong class="ipa">/?sp?r??/</strong>
+        <span class="verb">V:<strong>read</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>read</strong> the sparrow card?</div>
+        <div class="answer">Yes, I can <strong>read</strong> it.</div>
+        <div class="zh">(是的，我可以读这张卡片。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>read</strong> the email now?</div>
+        <div class="answer">Yes, I can <strong>read</strong> the email now.</div>
+        <div class="zh">(是的，我现在可以读邮件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>刺猬 · hedgehog</span>
+        <strong class="ipa">/?hed?h?ɡ/</strong>
+        <span class="verb">V:<strong>spend</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>spend</strong> one minute on the hedgehog card?</div>
+        <div class="answer">Yes, we can <strong>spend</strong> one minute on it.</div>
+        <div class="zh">(是的，我们可以花一分钟看看它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>spend</strong> more time on this task?</div>
+        <div class="answer">Yes, we can <strong>spend</strong> more time on this task.</div>
+        <div class="zh">(是的，我们可以在这个任务上多花点时间。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>豹 · leopard</span>
+        <strong class="ipa">/?lep?d/</strong>
+        <span class="verb">V:<strong>grow</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the young leopard <strong>grow</strong> fast?</div>
+        <div class="answer">Yes, it can <strong>grow</strong> fast.</div>
+        <div class="zh">(是的，它可以长得很快。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can our sales <strong>grow</strong> this month?</div>
+        <div class="answer">Yes, our sales can <strong>grow</strong> this month.</div>
+        <div class="zh">(是的，我们这个月的销量可以增长。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>啄木鸟 · woodpecker</span>
+        <strong class="ipa">/?w?dpek?/</strong>
+        <span class="verb">V:<strong>open</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the woodpecker <strong>open</strong> its beak wide?</div>
+        <div class="answer">Yes, it can <strong>open</strong> its beak wide.</div>
+        <div class="zh">(是的，它可以把嘴张得很大。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>open</strong> the file now?</div>
+        <div class="answer">Yes, I can <strong>open</strong> the file now.</div>
+        <div class="zh">(是的，我现在可以打开文件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海狮 · sea lion</span>
+        <strong class="ipa">/si? ?la??n/</strong>
+        <span class="verb">V:<strong>walk</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the sea lion <strong>walk</strong> on the rocks?</div>
+        <div class="answer">Yes, it can <strong>walk</strong> on the rocks.</div>
+        <div class="zh">(是的，它可以在岩石上走。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>walk</strong> to the next room?</div>
+        <div class="answer">Yes, we can <strong>walk</strong> to the next room.</div>
+        <div class="zh">(是的，我们可以走去隔壁房间。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title title-compact">
+        <span>蝴蝶鱼 · butterfly fish</span>
+        <strong class="ipa">/?b?t?fla? f??/</strong>
+        <span class="verb">V:<strong>win</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the butterfly fish swim fast in a race?</div>
+        <div class="answer">Yes, it can swim fast in a race.</div>
+        <div class="zh">(是的，它在比赛中可以游得很快。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can our team <strong>win</strong> this project?</div>
+        <div class="answer">Yes, our team can <strong>win</strong> this project.</div>
+        <div class="zh">(是的，我们团队可以拿下这个项目。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>小丑鱼 · clownfish</span>
+        <strong class="ipa">/?kla?nf??/</strong>
+        <span class="verb">V:<strong>teach</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can this clownfish card <strong>teach</strong> new words?</div>
+        <div class="answer">Yes, it can <strong>teach</strong> new words.</div>
+        <div class="zh">(是的，这张卡片可以教新单词。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>teach</strong> me this tool?</div>
+        <div class="answer">Yes, I can <strong>teach</strong> you this tool.</div>
+        <div class="zh">(是的，我可以教你这个工具。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>袋鼠 · kangaroo</span>
+        <strong class="ipa">/?k??ɡ??ru?/</strong>
+        <span class="verb">V:<strong>offer</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can people get a close look at the kangaroo in the zoo?</div>
+        <div class="answer">Yes, they can get a close look at it there.</div>
+        <div class="zh">(是的，人们可以在动物园近距离看它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>offer</strong> a new service today?</div>
+        <div class="answer">Yes, we can <strong>offer</strong> a new service today.</div>
+        <div class="zh">(是的，我们可以提供一项新服务。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蝴蝶 · butterfly</span>
+        <strong class="ipa">/?b?t?fla?/</strong>
+        <span class="verb">V:<strong>remember</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>remember</strong> the butterfly?</div>
+        <div class="answer">Yes, I <strong>remember</strong> it.</div>
+        <div class="zh">(是的，我记得它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>remember</strong> the deadline?</div>
+        <div class="answer">Yes, I <strong>remember</strong> the deadline.</div>
+        <div class="zh">(是的，我记得截止时间。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>驴 · donkey</span>
+        <strong class="ipa">/?d??ki/</strong>
+        <span class="verb">V:<strong>love</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>love</strong> the donkey picture?</div>
+        <div class="answer">Yes, I <strong>love</strong> it.</div>
+        <div class="zh">(是的，我喜欢它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>love</strong> this simple plan?</div>
+        <div class="answer">Yes, I <strong>love</strong> this simple plan.</div>
+        <div class="zh">(是的，我喜欢这个简单方案。)</div>
+      </div>
+    </article></div>
+    </section>
+    <section class="page layout-37">
+      <div class="cell">
+    <article class="card small">
+      <div class="title title-compact">
+        <span>虎鲸 · killer whale</span>
+        <strong class="ipa">/?k?l?We?l/</strong>
+        <span class="verb">V:<strong>consider</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>consider</strong> the killer whale intelligent?</div>
+        <div class="answer">Yes, I think it is intelligent.</div>
+        <div class="zh">(是的，我觉得它很聪明。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>consider</strong> this idea useful?</div>
+        <div class="answer">Yes, I <strong>consider</strong> this idea useful.</div>
+        <div class="zh">(是的，我认为这个想法有用。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>蜗牛 · snail</span>
+        <strong class="ipa">/sne?l/</strong>
+        <span class="verb">V:<strong>appear</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the snail <strong>appear</strong> after rain?</div>
+        <div class="answer">Yes, it can <strong>appear</strong> after rain.</div>
+        <div class="zh">(是的，它会在雨后出现。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can the update <strong>appear</strong> on the screen now?</div>
+        <div class="answer">Yes, the update can <strong>appear</strong> on the screen now.</div>
+        <div class="zh">(是的，更新现在可以显示在屏幕上。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>螳螂 · mantis</span>
+        <strong class="ipa">/?m?nt?s/</strong>
+        <span class="verb">V:<strong>buy</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>buy</strong> a mantis book today?</div>
+        <div class="answer">Yes, we can <strong>buy</strong> one today.</div>
+        <div class="zh">(是的，我们今天可以买一本。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>buy</strong> a new printer today?</div>
+        <div class="answer">Yes, we can <strong>buy</strong> a new printer today.</div>
+        <div class="zh">(是的，我们今天可以买一台新打印机。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>海鸥 · sea gull</span>
+        <strong class="ipa">/si? ɡ?l/</strong>
+        <span class="verb">V:<strong>wait</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>wait</strong> for the sea gull here?</div>
+        <div class="answer">Yes, we can <strong>wait</strong> for it here.</div>
+        <div class="zh">(是的，我们可以在这里等它。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>wait</strong> for the reply now?</div>
+        <div class="answer">Yes, we can <strong>wait</strong> for the reply now.</div>
+        <div class="zh">(是的，我们现在可以等回复。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>猪 · pig</span>
+        <strong class="ipa">/p?ɡ/</strong>
+        <span class="verb">V:<strong>serve</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can this picture <strong>serve</strong> the pig lesson well?</div>
+        <div class="answer">Yes, it can <strong>serve</strong> the pig lesson well.</div>
+        <div class="zh">(是的，这张图片很适合上猪这一课。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can this chart <strong>serve</strong> the report well?</div>
+        <div class="answer">Yes, this chart can <strong>serve</strong> the report well.</div>
+        <div class="zh">(是的，这张图表可以用于报告。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>瓢虫 · ladybug</span>
+        <strong class="ipa">/?le?dib?ɡ/</strong>
+        <span class="verb">V:<strong>send</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>send</strong> the ladybug picture?</div>
+        <div class="answer">Yes, I can <strong>send</strong> it.</div>
+        <div class="zh">(是的，我可以把它发出去。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can you <strong>send</strong> the email now?</div>
+        <div class="answer">Yes, I can <strong>send</strong> the email now.</div>
+        <div class="zh">(是的，我现在可以发送邮件。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>大象 · elephant</span>
+        <strong class="ipa">/?el?f?nt/</strong>
+        <span class="verb">V:<strong>expect</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>expect</strong> the elephant to move?</div>
+        <div class="answer">Yes, I <strong>expect</strong> it to move.</div>
+        <div class="zh">(是的，我觉得它会动起来。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Do you <strong>expect</strong> the client to reply?</div>
+        <div class="answer">Yes, I <strong>expect</strong> the client to reply.</div>
+        <div class="zh">(是的，我预计客户会回复。)</div>
+      </div>
+    </article></div><div class="cell">
+    <article class="card small">
+      <div class="title">
+        <span>河豚 · globefish</span>
+        <strong class="ipa">/?ɡl??bf??/</strong>
+        <span class="verb">V:<strong>build</strong></span>
+      </div>
+      <div class="qa">
+        <div class="question">Can the globefish <strong>build</strong> a safe place to hide?</div>
+        <div class="answer">Yes, it can <strong>build</strong> a safe place to hide.</div>
+        <div class="zh">(是的，它可以搭一个安全的藏身处。)</div>
+      </div>
+      <div class="qa">
+        <div class="question">Can we <strong>build</strong> a new page today?</div>
+        <div class="answer">Yes, we can <strong>build</strong> a new page today.</div>
+        <div class="zh">(是的，我们可以做一个新页面。)</div>
+      </div>
+    </article></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    </section>
+    </body>
+  </html>

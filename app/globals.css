@@ -1,0 +1,167 @@
+:root {
+  --bg: #eef6f0;
+  --panel: #ffffff;
+  --ink: #1f2b24;
+  --muted: #51645a;
+  --accent: #0f8b5f;
+  --line: #d7e7dd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans SC", "PingFang SC", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% 10%, #f7f9d9 0%, transparent 40%),
+    radial-gradient(circle at 90% 15%, #dcf1ff 0%, transparent 35%),
+    linear-gradient(180deg, #e9f4ec 0%, #edf4ff 100%);
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+
+.sub {
+  margin-top: 8px;
+  color: var(--muted);
+}
+
+.toolbar {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.input,
+.select {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-height: 42px;
+}
+
+.input {
+  min-width: 260px;
+}
+
+.button {
+  border: 0;
+  border-radius: 12px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 42px;
+  padding: 10px 14px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.button:hover {
+  box-shadow: 0 10px 22px rgba(15, 139, 95, 0.2);
+  transform: translateY(-2px);
+}
+
+.grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 8px 24px rgba(20, 40, 30, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.ipa {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.badge {
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.badge.doc {
+  background: #d9f3e8;
+  color: #0d724f;
+}
+
+.badge.extended {
+  background: #e9edff;
+  color: #3349b8;
+}
+
+.meta {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.block {
+  margin-top: 10px;
+  border-top: 1px dashed var(--line);
+  padding-top: 10px;
+}
+
+.q {
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.a {
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+.zh {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 700px) {
+  .input {
+    min-width: 100%;
+  }
+}
