@@ -163,6 +163,7 @@ function html(cards: AnimalCard[], layout: PrintLayout) {
           padding: 0;
           margin: 0;
           overflow: hidden;
+          border: 0.3mm dashed #aaa;
         }
 
         .card {
