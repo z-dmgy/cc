@@ -7,8 +7,8 @@ const layoutConfig: Record<
   PrintLayout,
   { rows: number; cols: number; rowHeightMm: number; pageHeightMm: number }
 > = {
-  "37": { rows: 8, cols: 3, rowHeightMm: 36.7, pageHeightMm: 297 },
-  "49": { rows: 6, cols: 3, rowHeightMm: 49.406527777777775, pageHeightMm: 297 },
+  "37": { rows: 8, cols: 3, rowHeightMm: 37.095, pageHeightMm: 297 },
+  "49": { rows: 6, cols: 3, rowHeightMm: 49.494, pageHeightMm: 297 },
 };
 
 export const runtime = "nodejs";
@@ -73,10 +73,8 @@ function cardHtml(card: AnimalCard, layout: PrintLayout) {
   const verb = card.dialogue.focusVerb;
   const rowSizeClass = layout === "37" ? "small" : "large";
   const titleClass = isLongTitle(card, layout) ? " title-compact" : "";
-  const specialClass = card.id === "red-crowned-crane" ? " qa-smaller" : "";
-
   return `
-    <article class="card ${rowSizeClass}${specialClass}">
+    <article class="card ${rowSizeClass}">
       <div class="title${titleClass}">
         <span>${escapeHtml(normalizeText(card.nameZh))} · ${escapeHtml(normalizeText(card.nameEn))}</span>
         <strong class="ipa">${escapeHtml(normalizeText(card.ipa))}</strong>
@@ -113,7 +111,7 @@ function html(cards: AnimalCard[], layout: PrintLayout) {
   const perPage = config.rows * config.cols;
   const pages = chunkCards(cards, perPage);
   const cellHeight = config.rowHeightMm;
-  const contentPadding = layout === "37" ? "1.1mm" : "2.5mm";
+  const contentPadding = layout === "37" ? "0.8mm 0.27mm" : "1.5mm 0.27mm";
 
   return `<!doctype html>
   <html lang="zh-CN">
@@ -179,42 +177,6 @@ function html(cards: AnimalCard[], layout: PrintLayout) {
           justify-content: flex-start;
           overflow: hidden;
           background: #fff;
-        }
-
-        .layout-37 .cell:nth-child(3n) .card {
-          transform: translateX(1em);
-          width: calc(100% - 1em);
-        }
-
-        .layout-37 .cell:nth-child(n + 16) {
-          padding-top: 10.6mm;
-        }
-
-        .layout-37 .cell:nth-child(n + 16) .title {
-          font-size: 7.7pt;
-          gap: 0.8mm;
-          line-height: 1.04;
-          margin-bottom: 0.7mm;
-        }
-
-        .layout-37 .cell:nth-child(n + 16) .title-compact {
-          font-size: 7.35pt;
-        }
-
-        .layout-37 .cell:nth-child(n + 16) .qa {
-          font-size: 8.5pt;
-          line-height: 1.04;
-          margin-top: 0.18mm;
-        }
-
-        .layout-37 .cell:nth-child(n + 16) .answer {
-          margin-top: 0.05mm;
-        }
-
-        .layout-37 .cell:nth-child(n + 16) .zh {
-          font-size: 5.1pt;
-          line-height: 1.02;
-          margin-top: 0;
         }
 
         .title {
@@ -294,33 +256,6 @@ function html(cards: AnimalCard[], layout: PrintLayout) {
 
         .large .qa {
           font-size: 11.8pt;
-        }
-
-        .small.qa-smaller .qa {
-          font-size: 8.4pt;
-        }
-
-        .small.qa-smaller .title {
-          font-size: 7.2pt;
-          gap: 0.6mm;
-          line-height: 1.02;
-        }
-
-        .small.qa-smaller .title-compact {
-          font-size: 6.9pt;
-        }
-
-        .small.qa-smaller .answer {
-          margin-top: 0.05mm;
-        }
-
-        .small.qa-smaller .zh {
-          font-size: 5pt;
-          margin-top: 0;
-        }
-
-        .large.qa-smaller .qa {
-          font-size: 10.8pt;
         }
 
         strong {

@@ -5,12 +5,12 @@
     "nameEn": "crocodile",
     "ipa": "/ˌkrɒkəˈdaɪl/",
     "dialogue": {
-      "animalQuestion": "What is this now?",
-      "animalAnswer": "It is a crocodile. We can see it.",
-      "animalAnswerZh": "这是鳄鱼。看看鳄鱼。",
-      "officeQuestion": "What is this now?",
-      "officeAnswer": "It is the file.",
-      "officeAnswerZh": "这是文件。",
+      "animalQuestion": "What animal is that?",
+      "animalAnswer": "A crocodile. Can you see it?",
+      "animalAnswerZh": "鳄鱼，你能看见它吗？",
+      "officeQuestion": "What is on the screen?",
+      "officeAnswer": "I can see the new report.",
+      "officeAnswerZh": "我能看到新报告。",
       "focusVerb": "see"
     }
   },
@@ -20,12 +20,12 @@
     "nameEn": "hippo",
     "ipa": "/ˈhɪpəʊ/",
     "dialogue": {
-      "animalQuestion": "Where is it now?",
-      "animalAnswer": "The hippo is here. We can find it.",
-      "animalAnswerZh": "河马在这里。找找河马。",
-      "officeQuestion": "Where is the desk?",
-      "officeAnswer": "It is by the door.",
-      "officeAnswerZh": "桌子在门边。",
+      "animalQuestion": "Where did the hippo go?",
+      "animalAnswer": "In the water. Let us find it.",
+      "animalAnswerZh": "进水里了，我们去找找它。",
+      "officeQuestion": "Where is the contract?",
+      "officeAnswer": "I cannot find it anywhere.",
+      "officeAnswerZh": "我到处找不到。",
       "focusVerb": "find"
     }
   },
@@ -35,12 +35,12 @@
     "nameEn": "cat",
     "ipa": "/kæt/",
     "dialogue": {
-      "animalQuestion": "Who is that there?",
-      "animalAnswer": "That is the cat. We can see it.",
-      "animalAnswerZh": "那是猫。看看猫。",
-      "officeQuestion": "Who is that there?",
-      "officeAnswer": "That is the client team lead.",
-      "officeAnswerZh": "那是客户负责人。",
+      "animalQuestion": "Who is sleeping on the sofa?",
+      "animalAnswer": "The cat. We can see it there.",
+      "animalAnswerZh": "猫，我们能在那边看见它。",
+      "officeQuestion": "Who is leading the meeting?",
+      "officeAnswer": "I can see Sarah at the front.",
+      "officeAnswerZh": "我看到莎拉站在前面了。",
       "focusVerb": "see"
     }
   },
@@ -50,12 +50,12 @@
     "nameEn": "mosquito",
     "ipa": "/məˈskiːtəʊ/",
     "dialogue": {
-      "animalQuestion": "Which one is it?",
-      "animalAnswer": "This is the mosquito. Pick this one.",
-      "animalAnswerZh": "选蚊子。就是这个。",
-      "officeQuestion": "Which one do we use?",
-      "officeAnswer": "Use this paper now.",
-      "officeAnswerZh": "用这个纸。",
+      "animalQuestion": "Which one bit you?",
+      "animalAnswer": "That one. Pick it if you can.",
+      "animalAnswerZh": "就是那只，你要能抓就抓。",
+      "officeQuestion": "Which template do we use?",
+      "officeAnswer": "Pick the second one.",
+      "officeAnswerZh": "选第二个。",
       "focusVerb": "pick"
     }
   },
@@ -65,12 +65,12 @@
     "nameEn": "raccoon",
     "ipa": "/rəˈkuːn/",
     "dialogue": {
-      "animalQuestion": "What color is it?",
-      "animalAnswer": "The raccoon is green. Look at it.",
-      "animalAnswerZh": "浣熊是绿色的。看看浣熊。",
-      "officeQuestion": "What color is the note?",
-      "officeAnswer": "The note is blue.",
-      "officeAnswerZh": "便签是蓝色的。",
+      "animalQuestion": "What color is the raccoon?",
+      "animalAnswer": "Gray. Look at its striped tail.",
+      "animalAnswerZh": "灰色的，看看它的环纹尾巴。",
+      "officeQuestion": "What color is the header?",
+      "officeAnswer": "Look at the brand guide.",
+      "officeAnswerZh": "看看品牌手册。",
       "focusVerb": "look"
     }
   },
@@ -80,12 +80,12 @@
     "nameEn": "conch",
     "ipa": "/kɒntʃ/",
     "dialogue": {
-      "animalQuestion": "How many are here?",
-      "animalAnswer": "One conch is here. Count it now.",
-      "animalAnswerZh": "一只海螺。数数海螺。",
-      "officeQuestion": "How many cards do we need?",
-      "officeAnswer": "We need two cards.",
-      "officeAnswerZh": "我们需要两份卡片。",
+      "animalQuestion": "How many conch are on the beach?",
+      "animalAnswer": "I can count five from here.",
+      "animalAnswerZh": "从这里能数到五个。",
+      "officeQuestion": "How many joined the call?",
+      "officeAnswer": "Let me count. About twelve.",
+      "officeAnswerZh": "让我数数，大概十二个。",
       "focusVerb": "count"
     }
   },
@@ -95,12 +95,12 @@
     "nameEn": "horse",
     "ipa": "/hɔːs/",
     "dialogue": {
-      "animalQuestion": "Is it yours now?",
-      "animalAnswer": "Yes, it is my horse. I can hold it.",
-      "animalAnswerZh": "对，这是我的马。拿着马。",
-      "officeQuestion": "Is this plan yours?",
-      "officeAnswer": "Yes, it is mine.",
-      "officeAnswerZh": "对，这是我的。",
+      "animalQuestion": "Is that horse friendly?",
+      "animalAnswer": "Yes. Hold out your hand.",
+      "animalAnswerZh": "是的，伸出你的手。",
+      "officeQuestion": "Can I hold this desk for now?",
+      "officeAnswer": "Sure, hold it for the week.",
+      "officeAnswerZh": "当然，先用这周吧。",
       "focusVerb": "hold"
     }
   },
@@ -110,12 +110,12 @@
     "nameEn": "dragonfly",
     "ipa": "/ˈdræɡənflaɪ/",
     "dialogue": {
-      "animalQuestion": "Do you want it?",
-      "animalAnswer": "Yes, I want the dragonfly now.",
-      "animalAnswerZh": "想要这个蜻蜓。",
-      "officeQuestion": "Do you want this chart?",
-      "officeAnswer": "Yes, I want it now.",
-      "officeAnswerZh": "要，我现在就要。",
+      "animalQuestion": "Do you want to catch it?",
+      "animalAnswer": "I want to watch, not catch.",
+      "animalAnswerZh": "我想看它，不想抓它。",
+      "officeQuestion": "Do you want to join the project?",
+      "officeAnswer": "Yes, I really want to.",
+      "officeAnswerZh": "想，我很想加入。",
       "focusVerb": "want"
     }
   },
@@ -125,12 +125,12 @@
     "nameEn": "polar bear",
     "ipa": "/ˈpəʊlə beə/",
     "dialogue": {
-      "animalQuestion": "Would you like it?",
-      "animalAnswer": "Yes, I would like the polar bear.",
-      "animalAnswerZh": "好呀，我喜欢这个北极熊。",
-      "officeQuestion": "Would you like this report?",
-      "officeAnswer": "Yes, please send it.",
-      "officeAnswerZh": "好，请发给我。",
+      "animalQuestion": "Would you like to see it?",
+      "animalAnswer": "Yes, I would like that.",
+      "animalAnswerZh": "想，我非常想看。",
+      "officeQuestion": "Would you like to take the lead?",
+      "officeAnswer": "I would like to. Give me time.",
+      "officeAnswerZh": "我想，给我点时间准备。",
       "focusVerb": "like"
     }
   },
@@ -140,12 +140,12 @@
     "nameEn": "seal",
     "ipa": "/siːl/",
     "dialogue": {
-      "animalQuestion": "What do you need now?",
-      "animalAnswer": "I need the seal now.",
-      "animalAnswerZh": "我现在需要海豹。",
-      "officeQuestion": "What do you need now?",
-      "officeAnswer": "I need the email.",
-      "officeAnswerZh": "我现在需要邮件。",
+      "animalQuestion": "What does the seal need?",
+      "animalAnswer": "It needs fish. It looks hungry.",
+      "animalAnswerZh": "它需要鱼，它看起来饿了。",
+      "officeQuestion": "What do you need for the draft?",
+      "officeAnswer": "I need last week's data.",
+      "officeAnswerZh": "我需要上周的数据。",
       "focusVerb": "need"
     }
   },
@@ -155,12 +155,12 @@
     "nameEn": "walrus",
     "ipa": "/ˈwɔːlrəs/",
     "dialogue": {
-      "animalQuestion": "Do you like it?",
-      "animalAnswer": "Yes, I really like the walrus.",
-      "animalAnswerZh": "对，我很喜欢海象。",
-      "officeQuestion": "Do you like this room?",
-      "officeAnswer": "Yes, it looks very clear.",
-      "officeAnswerZh": "喜欢，看起来很清楚。",
+      "animalQuestion": "Do you love watching walruses?",
+      "animalAnswer": "I love how lazy they are.",
+      "animalAnswerZh": "我爱它们懒洋洋的样子。",
+      "officeQuestion": "Do you love your new role?",
+      "officeAnswer": "I love the work itself.",
+      "officeAnswerZh": "我喜欢这份工作本身。",
       "focusVerb": "love"
     }
   },
@@ -170,12 +170,12 @@
     "nameEn": "sea turtle",
     "ipa": "/siː ˈtɜːtl/",
     "dialogue": {
-      "animalQuestion": "Are you ready now?",
-      "animalAnswer": "Yes, I am ready for the sea turtle.",
-      "animalAnswerZh": "好了，去看海龟吧。",
-      "officeQuestion": "Are you ready for the meeting?",
-      "officeAnswer": "Yes, the team is ready now.",
-      "officeAnswerZh": "好了，团队也准备好了。",
+      "animalQuestion": "Shall we go see the turtles?",
+      "animalAnswer": "Yes, let us go now.",
+      "animalAnswerZh": "好，我们现在去。",
+      "officeQuestion": "Where do we go for lunch?",
+      "officeAnswer": "Let us go to the new place.",
+      "officeAnswerZh": "我们去那家新开的吧。",
       "focusVerb": "go"
     }
   },
@@ -185,12 +185,12 @@
     "nameEn": "shark",
     "ipa": "/ʃɑːk/",
     "dialogue": {
-      "animalQuestion": "Can you help now?",
-      "animalAnswer": "Yes, I can help the shark.",
-      "animalAnswerZh": "可以，帮帮鲨鱼。",
-      "officeQuestion": "Can you help me?",
-      "officeAnswer": "Yes, I can check the task.",
-      "officeAnswerZh": "可以，我来检查任务。",
+      "animalQuestion": "Can sharks smell blood far away?",
+      "animalAnswer": "Yes. Divers must be careful.",
+      "animalAnswerZh": "能，所以潜水员要小心。",
+      "officeQuestion": "Can you help before five?",
+      "officeAnswer": "Sure, I can help with the data.",
+      "officeAnswerZh": "当然，我来帮你整理数据。",
       "focusVerb": "help"
     }
   },
@@ -200,12 +200,12 @@
     "nameEn": "dolphin",
     "ipa": "/ˈdɒlfɪn/",
     "dialogue": {
-      "animalQuestion": "How do we do it?",
-      "animalAnswer": "We do it with the dolphin card.",
-      "animalAnswerZh": "我们和海豚一起做。",
-      "officeQuestion": "How do we do it?",
-      "officeAnswer": "First, open the file now.",
-      "officeAnswerZh": "先打开电话。",
+      "animalQuestion": "How do dolphins communicate?",
+      "animalAnswer": "They do it with clicks.",
+      "animalAnswerZh": "它们用咔哒声交流。",
+      "officeQuestion": "How do we handle complaints?",
+      "officeAnswer": "We do it by calling clients.",
+      "officeAnswerZh": "我们给客户打电话处理。",
       "focusVerb": "do"
     }
   },
@@ -215,12 +215,12 @@
     "nameEn": "magpie",
     "ipa": "/ˈmæɡpaɪ/",
     "dialogue": {
-      "animalQuestion": "What are you doing?",
-      "animalAnswer": "I am playing with the magpie.",
-      "animalAnswerZh": "我在和喜鹊一起玩。",
-      "officeQuestion": "What are you doing?",
-      "officeAnswer": "I am updating the list.",
-      "officeAnswerZh": "我在更新清单。",
+      "animalQuestion": "What is the magpie doing?",
+      "animalAnswer": "It is playing with a bottle cap.",
+      "animalAnswerZh": "它在玩一个瓶盖。",
+      "officeQuestion": "What are you doing today?",
+      "officeAnswer": "I am playing a key role.",
+      "officeAnswerZh": "我在担任重要角色。",
       "focusVerb": "play"
     }
   },
@@ -230,12 +230,12 @@
     "nameEn": "rooster",
     "ipa": "/ˈruːstə/",
     "dialogue": {
-      "animalQuestion": "May I have it?",
-      "animalAnswer": "Yes, you may use the rooster card.",
-      "animalAnswerZh": "可以，用公鸡卡。",
-      "officeQuestion": "May I use the page?",
-      "officeAnswer": "Yes, use it now.",
-      "officeAnswerZh": "可以，你现在用吧。",
+      "animalQuestion": "May I photograph the rooster?",
+      "animalAnswer": "Yes. Do not get too close.",
+      "animalAnswerZh": "可以，但别离它太近。",
+      "officeQuestion": "May I use the projector?",
+      "officeAnswer": "Use it whenever you need.",
+      "officeAnswerZh": "需要的时候随时用。",
       "focusVerb": "use"
     }
   },
@@ -245,12 +245,12 @@
     "nameEn": "red-crowned crane",
     "ipa": "/red kraʊnd kreɪn/",
     "dialogue": {
-      "animalQuestion": "When is it now?",
-      "animalAnswer": "It is at nine. The red-crowned crane can wait.",
-      "animalAnswerZh": "九点。等丹顶鹤。",
-      "officeQuestion": "When is the clock review?",
-      "officeAnswer": "It is at nine.",
-      "officeAnswerZh": "九点。",
+      "animalQuestion": "When do the cranes arrive?",
+      "animalAnswer": "In autumn. We just have to wait.",
+      "animalAnswerZh": "秋天，我们等就好了。",
+      "officeQuestion": "When will the client reply?",
+      "officeAnswer": "Let us wait until noon.",
+      "officeAnswerZh": "等到中午看看吧。",
       "focusVerb": "wait"
     }
   },
@@ -260,12 +260,12 @@
     "nameEn": "rabbit",
     "ipa": "/ˈræbɪt/",
     "dialogue": {
-      "animalQuestion": "What time is it?",
-      "animalAnswer": "It is nine o'clock. The rabbit is here.",
-      "animalAnswerZh": "九点。。告诉兔子时间。",
-      "officeQuestion": "What time is it now?",
-      "officeAnswer": "It is ten o'clock.",
-      "officeAnswerZh": "十点。",
+      "animalQuestion": "When is the rabbit fed?",
+      "animalAnswer": "At eight. I tell my son to do it.",
+      "animalAnswerZh": "八点，我叫儿子去喂它。",
+      "officeQuestion": "When does the meeting start?",
+      "officeAnswer": "At nine. Tell them to be early.",
+      "officeAnswerZh": "九点，告诉大家早点到。",
       "focusVerb": "tell"
     }
   },
@@ -275,12 +275,12 @@
     "nameEn": "camel",
     "ipa": "/ˈkæml/",
     "dialogue": {
-      "animalQuestion": "How is it going?",
-      "animalAnswer": "The camel is good today. It looks nice.",
-      "animalAnswerZh": "骆驼很好。对着骆驼笑一笑。",
-      "officeQuestion": "How is it going?",
-      "officeAnswer": "The copy is going better.",
-      "officeAnswerZh": "复印件更好了。",
+      "animalQuestion": "How is the camel in the heat?",
+      "animalAnswer": "Fine. Smile and it smiles back.",
+      "animalAnswerZh": "很好，你笑它也会回应。",
+      "officeQuestion": "How is the new intern doing?",
+      "officeAnswer": "Well. Smile more, it helps.",
+      "officeAnswerZh": "不错，多笑笑，有用的。",
       "focusVerb": "smile"
     }
   },
@@ -290,12 +290,12 @@
     "nameEn": "pigeon",
     "ipa": "/ˈpɪdʒɪn/",
     "dialogue": {
-      "animalQuestion": "Why is it here?",
-      "animalAnswer": "The pigeon is here because it can come.",
-      "animalAnswerZh": "鸽子会过来。",
-      "officeQuestion": "Why do we need the plan?",
-      "officeAnswer": "It helps us finish the slide.",
-      "officeAnswerZh": "因为它能帮到幻灯片。",
+      "animalQuestion": "Why does the pigeon come back?",
+      "animalAnswer": "It will come when there is food.",
+      "animalAnswerZh": "有吃的它就会来。",
+      "officeQuestion": "Why does Tom always come late?",
+      "officeAnswer": "His train never seems to come.",
+      "officeAnswerZh": "他的列车好像从不准点。",
       "focusVerb": "come"
     }
   },
@@ -305,12 +305,12 @@
     "nameEn": "shrimp",
     "ipa": "/ʃrɪmp/",
     "dialogue": {
-      "animalQuestion": "What is this now?",
-      "animalAnswer": "It is a shrimp. We can see it.",
-      "animalAnswerZh": "这是虾。看看虾。",
-      "officeQuestion": "What is this now?",
-      "officeAnswer": "It is the card.",
-      "officeAnswerZh": "这是卡片。",
+      "animalQuestion": "What shrimp is in the tank?",
+      "animalAnswer": "Look close and you can see it.",
+      "animalAnswerZh": "仔细看你能看见它。",
+      "officeQuestion": "What is that icon in the toolbar?",
+      "officeAnswer": "Look close. It is a filter.",
+      "officeAnswerZh": "仔细看，那是筛选按钮。",
       "focusVerb": "see"
     }
   },
@@ -320,12 +320,12 @@
     "nameEn": "monkey",
     "ipa": "/ˈmʌŋki/",
     "dialogue": {
-      "animalQuestion": "Where is it now?",
-      "animalAnswer": "The monkey is there. We can find it.",
-      "animalAnswerZh": "猴子在那里。找找猴子。",
-      "officeQuestion": "Where is the plan?",
-      "officeAnswer": "It is in the box.",
-      "officeAnswerZh": "计划在盒子里。",
+      "animalQuestion": "Where did the monkey go?",
+      "animalAnswer": "Up the tree. Try to find it.",
+      "animalAnswerZh": "爬树上了，试着找找它。",
+      "officeQuestion": "Where is the presentation?",
+      "officeAnswer": "I cannot find it. Wrong folder.",
+      "officeAnswerZh": "找不到，可能存错文件夹了。",
       "focusVerb": "find"
     }
   },
@@ -335,12 +335,12 @@
     "nameEn": "crab",
     "ipa": "/kræb/",
     "dialogue": {
-      "animalQuestion": "Who is that there?",
-      "animalAnswer": "That is the crab. We can see it.",
-      "animalAnswerZh": "那是螃蟹。看看螃蟹。",
-      "officeQuestion": "Who is that there?",
-      "officeAnswer": "That is the chart team lead.",
-      "officeAnswerZh": "那是图表负责人。",
+      "animalQuestion": "Who left the crab there?",
+      "animalAnswer": "My brother. See the bucket.",
+      "animalAnswerZh": "我弟弟，你看那个桶。",
+      "officeQuestion": "Who just walked in?",
+      "officeAnswer": "I can see the director.",
+      "officeAnswerZh": "我看到是总监进来了。",
       "focusVerb": "see"
     }
   },
@@ -350,12 +350,12 @@
     "nameEn": "deer",
     "ipa": "/dɪə/",
     "dialogue": {
-      "animalQuestion": "Which one is it?",
-      "animalAnswer": "This is the deer. Pick this one.",
-      "animalAnswerZh": "选鹿。就是这个。",
-      "officeQuestion": "Which one do we use?",
-      "officeAnswer": "Use this report now.",
-      "officeAnswerZh": "用这个报告。",
+      "animalQuestion": "Which deer do we photograph?",
+      "animalAnswer": "Pick the one by the river.",
+      "animalAnswerZh": "选河边的那只。",
+      "officeQuestion": "Which candidate do we pick?",
+      "officeAnswer": "Pick the most experienced one.",
+      "officeAnswerZh": "选经验最丰富的那位。",
       "focusVerb": "pick"
     }
   },
@@ -365,12 +365,12 @@
     "nameEn": "parrot",
     "ipa": "/ˈpærət/",
     "dialogue": {
-      "animalQuestion": "What color is it?",
-      "animalAnswer": "The parrot is gray. Look at it.",
-      "animalAnswerZh": "鹦鹉是灰色的。看看鹦鹉。",
-      "officeQuestion": "What color is the email?",
-      "officeAnswer": "The email is blue.",
-      "officeAnswerZh": "邮件是蓝色的。",
+      "animalQuestion": "What color is the parrot?",
+      "animalAnswer": "Green. Look at its red head.",
+      "animalAnswerZh": "绿色的，看看它红色的头。",
+      "officeQuestion": "What does the dashboard show?",
+      "officeAnswer": "Look at the left panel.",
+      "officeAnswerZh": "看左边那栏。",
       "focusVerb": "look"
     }
   },
@@ -380,12 +380,12 @@
     "nameEn": "lion",
     "ipa": "/ˈlaɪən/",
     "dialogue": {
-      "animalQuestion": "How many are here?",
-      "animalAnswer": "two lions are here. Count them now.",
-      "animalAnswerZh": "两只狮子。数数狮子。",
-      "officeQuestion": "How many rooms do we need?",
-      "officeAnswer": "We need two rooms.",
-      "officeAnswerZh": "我们需要两份会议室。",
+      "animalQuestion": "How many lions are here?",
+      "animalAnswer": "Let me count. About eight.",
+      "animalAnswerZh": "让我数数，大概八只。",
+      "officeQuestion": "How many are on the list?",
+      "officeAnswer": "I will count now. One second.",
+      "officeAnswerZh": "我现在数，等一下。",
       "focusVerb": "count"
     }
   },
@@ -395,12 +395,12 @@
     "nameEn": "grasshopper",
     "ipa": "/ˈɡrɑːshɒpə/",
     "dialogue": {
-      "animalQuestion": "Is it yours now?",
-      "animalAnswer": "Yes, it is my grasshopper. I can hold it.",
-      "animalAnswerZh": "对，这是我的蚱蜢。拿着蚱蜢。",
-      "officeQuestion": "Is this team yours?",
-      "officeAnswer": "Yes, it is mine.",
-      "officeAnswerZh": "对，这是我的。",
+      "animalQuestion": "Is that a grasshopper?",
+      "animalAnswer": "Yes. Hold still, I will get it.",
+      "animalAnswerZh": "是的，别动，我来拿掉它。",
+      "officeQuestion": "Can you hold the door?",
+      "officeAnswer": "Sure, I will hold it for you.",
+      "officeAnswerZh": "没问题，我帮你撑着门。",
       "focusVerb": "hold"
     }
   },
@@ -410,12 +410,12 @@
     "nameEn": "mink",
     "ipa": "/mɪŋk/",
     "dialogue": {
-      "animalQuestion": "Do you want it?",
-      "animalAnswer": "Yes, I want the mink now.",
-      "animalAnswerZh": "想要这个貂。",
-      "officeQuestion": "Do you want this task?",
-      "officeAnswer": "Yes, I want it now.",
-      "officeAnswerZh": "要，我现在就要。",
+      "animalQuestion": "Do you want to pet the mink?",
+      "animalAnswer": "I want to but I am nervous.",
+      "animalAnswerZh": "想，但我有点紧张。",
+      "officeQuestion": "Do you want to present?",
+      "officeAnswer": "I want to try. Good practice.",
+      "officeAnswerZh": "我想试试，是个好锻炼。",
       "focusVerb": "want"
     }
   },
@@ -425,12 +425,12 @@
     "nameEn": "spider",
     "ipa": "/ˈspaɪdə/",
     "dialogue": {
-      "animalQuestion": "Would you like it?",
-      "animalAnswer": "Yes, I would like the spider.",
-      "animalAnswerZh": "好呀，我喜欢这个蜘蛛。",
-      "officeQuestion": "Would you like this phone?",
-      "officeAnswer": "Yes, please send it.",
-      "officeAnswerZh": "好，请发给我。",
+      "animalQuestion": "Would you like to hold it?",
+      "animalAnswer": "I would like to if it is safe.",
+      "animalAnswerZh": "安全的话我想试试。",
+      "officeQuestion": "Would you like the slides?",
+      "officeAnswer": "Yes, please share them later.",
+      "officeAnswerZh": "好，会后分享给我吧。",
       "focusVerb": "like"
     }
   },
@@ -440,12 +440,12 @@
     "nameEn": "ant",
     "ipa": "/ænt/",
     "dialogue": {
-      "animalQuestion": "What do you need now?",
-      "animalAnswer": "I need the ant now.",
-      "animalAnswerZh": "我现在需要蚂蚁。",
-      "officeQuestion": "What do you need now?",
-      "officeAnswer": "I need the list.",
-      "officeAnswerZh": "我现在需要清单。",
+      "animalQuestion": "Why do ants carry so much?",
+      "animalAnswer": "They need food for the colony.",
+      "animalAnswerZh": "它们需要为蚁群储粮。",
+      "officeQuestion": "Why do you need the raw file?",
+      "officeAnswer": "I need it to redo the chart.",
+      "officeAnswerZh": "我需要用它重新做图表。",
       "focusVerb": "need"
     }
   },
@@ -455,12 +455,12 @@
     "nameEn": "dog",
     "ipa": "/dɒɡ/",
     "dialogue": {
-      "animalQuestion": "Do you like it?",
-      "animalAnswer": "Yes, I really like the dog.",
-      "animalAnswerZh": "对，我很喜欢狗。",
-      "officeQuestion": "Do you like this page?",
-      "officeAnswer": "Yes, it looks very clear.",
-      "officeAnswerZh": "喜欢，看起来很清楚。",
+      "animalQuestion": "Do you love having a dog?",
+      "animalAnswer": "I love coming home to it.",
+      "animalAnswerZh": "我爱每天回家见到它。",
+      "officeQuestion": "Do you love the new layout?",
+      "officeAnswer": "I love the open space.",
+      "officeAnswerZh": "我喜欢这个开放空间。",
       "focusVerb": "love"
     }
   },
@@ -470,12 +470,12 @@
     "nameEn": "tiger",
     "ipa": "/ˈtaɪɡə/",
     "dialogue": {
-      "animalQuestion": "Are you ready now?",
-      "animalAnswer": "Yes, I am ready for the tiger.",
-      "animalAnswerZh": "好了，去看老虎吧。",
-      "officeQuestion": "Are you ready for the meeting?",
-      "officeAnswer": "Yes, the clock is ready now.",
-      "officeAnswerZh": "好了，时钟也准备好了。",
+      "animalQuestion": "Shall we go see the tigers?",
+      "animalAnswer": "Yes, let us go right now.",
+      "animalAnswerZh": "好，我们现在就去。",
+      "officeQuestion": "Shall we go grab coffee?",
+      "officeAnswer": "Sure, let us go quickly.",
+      "officeAnswerZh": "好啊，我们快去快回。",
       "focusVerb": "go"
     }
   },
@@ -485,12 +485,12 @@
     "nameEn": "sea horse",
     "ipa": "/siː hɔːs/",
     "dialogue": {
-      "animalQuestion": "Can you help now?",
-      "animalAnswer": "Yes, I can help the sea horse.",
-      "animalAnswerZh": "可以，帮帮海马。",
-      "officeQuestion": "Can you help me?",
-      "officeAnswer": "Yes, I can check the draft.",
-      "officeAnswerZh": "可以，我来检查草稿。",
+      "animalQuestion": "Can you help find the seahorse?",
+      "animalAnswer": "Yes, it is behind the coral.",
+      "animalAnswerZh": "可以，它在珊瑚后面。",
+      "officeQuestion": "Can you help review this?",
+      "officeAnswer": "I can help after this call.",
+      "officeAnswerZh": "这通电话后我帮你看。",
       "focusVerb": "help"
     }
   },
@@ -500,12 +500,12 @@
     "nameEn": "chameleon",
     "ipa": "/kəˈmiːliən/",
     "dialogue": {
-      "animalQuestion": "How do we do it?",
-      "animalAnswer": "We do it with the chameleon card.",
-      "animalAnswerZh": "我们和变色龙一起做。",
-      "officeQuestion": "How do we do it?",
-      "officeAnswer": "First, open the file now.",
-      "officeAnswerZh": "先打开复印件。",
+      "animalQuestion": "How does it change color?",
+      "animalAnswer": "It does it with skin crystals.",
+      "animalAnswerZh": "它通过皮肤里的晶体变色。",
+      "officeQuestion": "How do we handle this case?",
+      "officeAnswer": "We do it by the standard flow.",
+      "officeAnswerZh": "按标准流程来处理。",
       "focusVerb": "do"
     }
   },
@@ -515,12 +515,12 @@
     "nameEn": "panda",
     "ipa": "/ˈpændə/",
     "dialogue": {
-      "animalQuestion": "What are you doing?",
-      "animalAnswer": "I am playing with the panda.",
-      "animalAnswerZh": "我在和熊猫一起玩。",
-      "officeQuestion": "What are you doing?",
-      "officeAnswer": "I am updating the slide.",
-      "officeAnswerZh": "我在更新幻灯片。",
+      "animalQuestion": "What is the panda doing?",
+      "animalAnswer": "It is playing with bamboo.",
+      "animalAnswerZh": "它在玩竹子。",
+      "officeQuestion": "What is the team doing?",
+      "officeAnswer": "Playing with the new API.",
+      "officeAnswerZh": "在研究新的 API。",
       "focusVerb": "play"
     }
   },
@@ -530,12 +530,12 @@
     "nameEn": "sheep",
     "ipa": "/ʃiːp/",
     "dialogue": {
-      "animalQuestion": "May I have it?",
-      "animalAnswer": "Yes, you may use the sheep card.",
-      "animalAnswerZh": "可以，用绵羊卡。",
-      "officeQuestion": "May I use the file?",
-      "officeAnswer": "Yes, use it now.",
-      "officeAnswerZh": "可以，你现在用吧。",
+      "animalQuestion": "May I feed the sheep?",
+      "animalAnswer": "Yes, you may. Use flat palm.",
+      "animalAnswerZh": "可以，把草平摊在手心。",
+      "officeQuestion": "May I use your laptop?",
+      "officeAnswer": "Sure. Use guest account.",
+      "officeAnswerZh": "当然，用访客账号登录。",
       "focusVerb": "use"
     }
   },
@@ -545,12 +545,12 @@
     "nameEn": "penguin",
     "ipa": "/ˈpeŋɡwɪn/",
     "dialogue": {
-      "animalQuestion": "When is it now?",
-      "animalAnswer": "It is at ten. The penguin can wait.",
-      "animalAnswerZh": "十点。等企鹅。",
-      "officeQuestion": "When is the desk review?",
-      "officeAnswer": "It is at ten.",
-      "officeAnswerZh": "十点。",
+      "animalQuestion": "When do penguins come out?",
+      "animalAnswer": "At three. We just have to wait.",
+      "animalAnswerZh": "三点，我们等一会儿就好。",
+      "officeQuestion": "When will the vendor reply?",
+      "officeAnswer": "Today. We have to wait.",
+      "officeAnswerZh": "今天，我们等着就好。",
       "focusVerb": "wait"
     }
   },
@@ -560,12 +560,12 @@
     "nameEn": "kingfisher",
     "ipa": "/ˈkɪŋfɪʃə/",
     "dialogue": {
-      "animalQuestion": "What time is it?",
-      "animalAnswer": "It is ten o'clock. The kingfisher is here.",
-      "animalAnswerZh": "十点。。告诉翠鸟时间。",
-      "officeQuestion": "What time is it now?",
-      "officeAnswer": "It is one o'clock.",
-      "officeAnswerZh": "一点。",
+      "animalQuestion": "When does it hunt?",
+      "animalAnswer": "Early morning. Tell me if you see one.",
+      "animalAnswerZh": "清晨，看到了告诉我。",
+      "officeQuestion": "When is the client call?",
+      "officeAnswer": "At ten. Tell the team now.",
+      "officeAnswerZh": "十点，现在告诉团队。",
       "focusVerb": "tell"
     }
   },
@@ -575,12 +575,12 @@
     "nameEn": "octopus",
     "ipa": "/ˈɒktəpəs/",
     "dialogue": {
-      "animalQuestion": "How is it going?",
-      "animalAnswer": "The octopus is fine today. It looks nice.",
-      "animalAnswerZh": "章鱼不错。对着章鱼笑一笑。",
-      "officeQuestion": "How is it going?",
-      "officeAnswer": "The paper is going smooth.",
-      "officeAnswerZh": "纸很顺利。",
+      "animalQuestion": "How is it in the new tank?",
+      "animalAnswer": "Well. Smile and it may change.",
+      "animalAnswerZh": "好，对它笑它可能会变色。",
+      "officeQuestion": "How is the team doing?",
+      "officeAnswer": "Well. Smile and stay focused.",
+      "officeAnswerZh": "不错，保持笑脸和专注。",
       "focusVerb": "smile"
     }
   },
@@ -590,12 +590,12 @@
     "nameEn": "chimpanzee",
     "ipa": "/ˌtʃɪmpænˈziː/",
     "dialogue": {
-      "animalQuestion": "Why is it here?",
-      "animalAnswer": "The chimpanzee is here because it can come.",
-      "animalAnswerZh": "黑猩猩会过来。",
-      "officeQuestion": "Why do we need the team?",
-      "officeAnswer": "It helps us finish the note.",
-      "officeAnswerZh": "因为它能帮到便签。",
+      "animalQuestion": "Why does it come here?",
+      "animalAnswer": "Rangers come to feed them.",
+      "animalAnswerZh": "护林员每天来喂它们。",
+      "officeQuestion": "Why come to Amy for help?",
+      "officeAnswer": "She always comes prepared.",
+      "officeAnswerZh": "她每次来都准备充分。",
       "focusVerb": "come"
     }
   },
@@ -605,12 +605,12 @@
     "nameEn": "bee",
     "ipa": "/biː/",
     "dialogue": {
-      "animalQuestion": "What is this now?",
-      "animalAnswer": "It is a bee. We can see it.",
-      "animalAnswerZh": "这是蜜蜂。看看蜜蜂。",
-      "officeQuestion": "What is this now?",
-      "officeAnswer": "It is the room.",
-      "officeAnswerZh": "这是会议室。",
+      "animalQuestion": "What is that buzzing sound?",
+      "animalAnswer": "A bee. You can see it ahead.",
+      "animalAnswerZh": "蜜蜂，你能看到前面那朵花。",
+      "officeQuestion": "What is the blinking light?",
+      "officeAnswer": "I can see it is connected.",
+      "officeAnswerZh": "我看了下，表示连接正常。",
       "focusVerb": "see"
     }
   },
@@ -620,12 +620,12 @@
     "nameEn": "cow",
     "ipa": "/kaʊ/",
     "dialogue": {
-      "animalQuestion": "Where is it now?",
-      "animalAnswer": "The cow is up here. We can find it.",
-      "animalAnswerZh": "奶牛在上面。找找奶牛。",
-      "officeQuestion": "Where is the team?",
-      "officeAnswer": "It is near the wall.",
-      "officeAnswerZh": "团队在墙边。",
+      "animalQuestion": "Where did the cow go?",
+      "animalAnswer": "Far field. We must find it.",
+      "animalAnswerZh": "跑到远处田里，得找回来。",
+      "officeQuestion": "Where is the project brief?",
+      "officeAnswer": "I will find it in the drive.",
+      "officeAnswerZh": "我去共享盘找找。",
       "focusVerb": "find"
     }
   },
@@ -635,12 +635,12 @@
     "nameEn": "duck",
     "ipa": "/dʌk/",
     "dialogue": {
-      "animalQuestion": "Who is that there?",
-      "animalAnswer": "That is the duck. We can see it.",
-      "animalAnswerZh": "那是鸭子。看看鸭子。",
-      "officeQuestion": "Who is that there?",
-      "officeAnswer": "That is the task team lead.",
-      "officeAnswerZh": "那是任务负责人。",
+      "animalQuestion": "Who is by the pond?",
+      "animalAnswer": "A kid. See him tossing bread.",
+      "animalAnswerZh": "一个小孩，看他在扔面包。",
+      "officeQuestion": "Who is at the whiteboard?",
+      "officeAnswer": "I can see the new manager.",
+      "officeAnswerZh": "我看到是新来的经理。",
       "focusVerb": "see"
     }
   },
@@ -650,12 +650,12 @@
     "nameEn": "mouse",
     "ipa": "/maʊs/",
     "dialogue": {
-      "animalQuestion": "Which one is it?",
-      "animalAnswer": "This is the mouse. Pick this one.",
-      "animalAnswerZh": "选老鼠。就是这个。",
-      "officeQuestion": "Which one do we use?",
-      "officeAnswer": "Use this phone now.",
-      "officeAnswerZh": "用这个电话。",
+      "animalQuestion": "Which one chews the wires?",
+      "animalAnswer": "Pick the gray one. That is it.",
+      "animalAnswerZh": "选那只灰色的，就是它。",
+      "officeQuestion": "Which version do we deploy?",
+      "officeAnswer": "Pick the Thursday build.",
+      "officeAnswerZh": "选周四那个版本。",
       "focusVerb": "pick"
     }
   },
@@ -665,12 +665,12 @@
     "nameEn": "jellyfish",
     "ipa": "/ˈdʒelifɪʃ/",
     "dialogue": {
-      "animalQuestion": "What color is it?",
-      "animalAnswer": "The jellyfish is brown. Look at it.",
-      "animalAnswerZh": "水母是棕色的。看看水母。",
-      "officeQuestion": "What color is the list?",
-      "officeAnswer": "The list is blue.",
-      "officeAnswerZh": "清单是蓝色的。",
+      "animalQuestion": "What color is the jellyfish?",
+      "animalAnswer": "Pink. Look at how it glows.",
+      "animalAnswerZh": "粉色的，看它怎么发光。",
+      "officeQuestion": "What is the new color scheme?",
+      "officeAnswer": "Look at my mockup. Warm pink.",
+      "officeAnswerZh": "看我的原型，是暖粉色。",
       "focusVerb": "look"
     }
   },
@@ -680,12 +680,12 @@
     "nameEn": "hen",
     "ipa": "/hen/",
     "dialogue": {
-      "animalQuestion": "How many are here?",
-      "animalAnswer": "three hens are here. Count them now.",
-      "animalAnswerZh": "三只母鸡。数数母鸡。",
-      "officeQuestion": "How many pages do we need?",
-      "officeAnswer": "We need two pages.",
-      "officeAnswerZh": "我们需要两份页面。",
+      "animalQuestion": "How many eggs this week?",
+      "animalAnswer": "Let me count. About seven.",
+      "animalAnswerZh": "让我数数，大概七个。",
+      "officeQuestion": "How many open tickets now?",
+      "officeAnswer": "Let me count. Fourteen.",
+      "officeAnswerZh": "让我数数，十四个。",
       "focusVerb": "count"
     }
   },
@@ -695,12 +695,12 @@
     "nameEn": "squirrel",
     "ipa": "/ˈskwɪrəl/",
     "dialogue": {
-      "animalQuestion": "Is it yours now?",
-      "animalAnswer": "Yes, it is my squirrel. I can hold it.",
-      "animalAnswerZh": "对，这是我的松鼠。拿着松鼠。",
-      "officeQuestion": "Is this clock yours?",
-      "officeAnswer": "Yes, it is mine.",
-      "officeAnswerZh": "对，这是我的。",
+      "animalQuestion": "Is that your squirrel?",
+      "animalAnswer": "Yes. I can hold it now.",
+      "animalAnswerZh": "是的，我能单手托着它了。",
+      "officeQuestion": "Can I hold your charger?",
+      "officeAnswer": "Hold it till my calls end.",
+      "officeAnswerZh": "等我打完电话再还我。",
       "focusVerb": "hold"
     }
   },
@@ -710,12 +710,12 @@
     "nameEn": "siskin",
     "ipa": "/ˈsɪskɪn/",
     "dialogue": {
-      "animalQuestion": "Do you want it?",
-      "animalAnswer": "Yes, I want the siskin now.",
-      "animalAnswerZh": "想要这个黄雀。",
-      "officeQuestion": "Do you want this draft?",
-      "officeAnswer": "Yes, I want it now.",
-      "officeAnswerZh": "要，我现在就要。",
+      "animalQuestion": "Do you want siskins here?",
+      "animalAnswer": "Yes, I want a feeder up.",
+      "animalAnswerZh": "想，我想挂个喂食器。",
+      "officeQuestion": "Do you want the new account?",
+      "officeAnswer": "I want it. Let me check first.",
+      "officeAnswerZh": "想要，先让我确认日程。",
       "focusVerb": "want"
     }
   },
@@ -725,12 +725,12 @@
     "nameEn": "turtle",
     "ipa": "/ˈtɜːtl/",
     "dialogue": {
-      "animalQuestion": "Would you like it?",
-      "animalAnswer": "Yes, I would like the turtle.",
-      "animalAnswerZh": "好呀，我喜欢这个乌龟。",
-      "officeQuestion": "Would you like this copy?",
-      "officeAnswer": "Yes, please send it.",
-      "officeAnswerZh": "好，请发给我。",
+      "animalQuestion": "Would you like to hold it?",
+      "animalAnswer": "Yes, I would like to try.",
+      "animalAnswerZh": "好，我想试试看。",
+      "officeQuestion": "Would you join the debrief?",
+      "officeAnswer": "I would but I have a call.",
+      "officeAnswerZh": "想参加，但那时我有电话。",
       "focusVerb": "like"
     }
   },
@@ -740,12 +740,12 @@
     "nameEn": "owl",
     "ipa": "/aʊl/",
     "dialogue": {
-      "animalQuestion": "What do you need now?",
-      "animalAnswer": "I need the owl now.",
-      "animalAnswerZh": "我现在需要猫头鹰。",
-      "officeQuestion": "What do you need now?",
-      "officeAnswer": "I need the slide.",
-      "officeAnswerZh": "我现在需要幻灯片。",
+      "animalQuestion": "What does an owl need?",
+      "animalAnswer": "It needs forest and small prey.",
+      "animalAnswerZh": "它需要森林和小猎物。",
+      "officeQuestion": "What do you need to proceed?",
+      "officeAnswer": "I need finance sign-off.",
+      "officeAnswerZh": "我需要财务审批。",
       "focusVerb": "need"
     }
   },
@@ -755,12 +755,12 @@
     "nameEn": "peacock",
     "ipa": "/ˈpiːkɒk/",
     "dialogue": {
-      "animalQuestion": "Do you like it?",
-      "animalAnswer": "Yes, I really like the peacock.",
-      "animalAnswerZh": "对，我很喜欢孔雀。",
-      "officeQuestion": "Do you like this file?",
-      "officeAnswer": "Yes, it looks very clear.",
-      "officeAnswerZh": "喜欢，看起来很清楚。",
+      "animalQuestion": "Do you love the peacock?",
+      "animalAnswer": "I love watching it open up.",
+      "animalAnswerZh": "我爱看它展开羽毛。",
+      "officeQuestion": "Do you love the new brand?",
+      "officeAnswer": "I love the colors.",
+      "officeAnswerZh": "我喜欢这些颜色。",
       "focusVerb": "love"
     }
   },
@@ -770,12 +770,12 @@
     "nameEn": "swallow",
     "ipa": "/ˈswɒləʊ/",
     "dialogue": {
-      "animalQuestion": "Are you ready now?",
-      "animalAnswer": "Yes, I am ready for the swallow.",
-      "animalAnswerZh": "好了，去看燕子吧。",
-      "officeQuestion": "Are you ready for the meeting?",
-      "officeAnswer": "Yes, the desk is ready now.",
-      "officeAnswerZh": "好了，桌子也准备好了。",
+      "animalQuestion": "Shall we go watch swallows?",
+      "animalAnswer": "Yes, let us go at sunset.",
+      "animalAnswerZh": "好，我们夕阳时去。",
+      "officeQuestion": "Shall we go over the numbers?",
+      "officeAnswer": "Let us go find a quiet room.",
+      "officeAnswerZh": "我们去找个安静的地方。",
       "focusVerb": "go"
     }
   },
@@ -785,12 +785,12 @@
     "nameEn": "cattle",
     "ipa": "/ˈkætl/",
     "dialogue": {
-      "animalQuestion": "Can you help now?",
-      "animalAnswer": "Yes, I can help the cattle.",
-      "animalAnswerZh": "可以，帮帮牛。",
-      "officeQuestion": "Can you help me?",
-      "officeAnswer": "Yes, I can check the client.",
-      "officeAnswerZh": "可以，我来检查客户。",
+      "animalQuestion": "Can you help herd the cattle?",
+      "animalAnswer": "Yes. I will take the left.",
+      "animalAnswerZh": "可以，我走左边。",
+      "officeQuestion": "Can you help set up tomorrow?",
+      "officeAnswer": "Happy to help. What do I bring?",
+      "officeAnswerZh": "很乐意，需要我带什么？",
       "focusVerb": "help"
     }
   },
@@ -800,12 +800,12 @@
     "nameEn": "ostrich",
     "ipa": "/ˈɒstrɪtʃ/",
     "dialogue": {
-      "animalQuestion": "How do we do it?",
-      "animalAnswer": "We do it with the ostrich card.",
-      "animalAnswerZh": "我们和鸵鸟一起做。",
-      "officeQuestion": "How do we do it?",
-      "officeAnswer": "First, open the file now.",
-      "officeAnswerZh": "先打开纸。",
+      "animalQuestion": "How do ostriches protect themselves?",
+      "animalAnswer": "They do it by kicking hard.",
+      "animalAnswerZh": "它们用腿踢来保护自己。",
+      "officeQuestion": "How do we fix this bug?",
+      "officeAnswer": "We do it with a check.",
+      "officeAnswerZh": "我们加一个验证检查。",
       "focusVerb": "do"
     }
   },
@@ -815,12 +815,12 @@
     "nameEn": "koala",
     "ipa": "/kəʊˈɑːlə/",
     "dialogue": {
-      "animalQuestion": "What are you doing?",
-      "animalAnswer": "I am playing with the koala.",
-      "animalAnswerZh": "我在和树袋熊一起玩。",
-      "officeQuestion": "What are you doing?",
-      "officeAnswer": "I am updating the note.",
-      "officeAnswerZh": "我在更新便签。",
+      "animalQuestion": "What is the koala doing?",
+      "animalAnswer": "Playing with a eucalyptus leaf.",
+      "animalAnswerZh": "在玩一片桉树叶。",
+      "officeQuestion": "How do you handle backlog?",
+      "officeAnswer": "We play it smart, urgent first.",
+      "officeAnswerZh": "先处理最紧急的那些。",
       "focusVerb": "play"
     }
   },
@@ -830,12 +830,12 @@
     "nameEn": "eagle",
     "ipa": "/ˈiːɡl/",
     "dialogue": {
-      "animalQuestion": "May I have it?",
-      "animalAnswer": "Yes, you may use the eagle card.",
-      "animalAnswerZh": "可以，用老鹰卡。",
-      "officeQuestion": "May I use the card?",
-      "officeAnswer": "Yes, use it now.",
-      "officeAnswerZh": "可以，你现在用吧。",
+      "animalQuestion": "May I use the binoculars?",
+      "animalAnswer": "Use them as long as you need.",
+      "animalAnswerZh": "想用多久就用多久。",
+      "officeQuestion": "May I use the meeting room?",
+      "officeAnswer": "Go ahead. Use it till noon.",
+      "officeAnswerZh": "去用吧，中午前都是空的。",
       "focusVerb": "use"
     }
   },
@@ -845,12 +845,12 @@
     "nameEn": "giraffe",
     "ipa": "/dʒɪˈrɑːf/",
     "dialogue": {
-      "animalQuestion": "When is it now?",
-      "animalAnswer": "It is at one. The giraffe can wait.",
-      "animalAnswerZh": "一点。等长颈鹿。",
-      "officeQuestion": "When is the plan review?",
-      "officeAnswer": "It is at one.",
-      "officeAnswerZh": "一点。",
+      "animalQuestion": "When does the giraffe come?",
+      "animalAnswer": "At dusk. We just need to wait.",
+      "animalAnswerZh": "傍晚，我们等就好了。",
+      "officeQuestion": "When is the legal review done?",
+      "officeAnswer": "Friday. We have to wait.",
+      "officeAnswerZh": "周五，我们等他们就好。",
       "focusVerb": "wait"
     }
   },
@@ -860,12 +860,12 @@
     "nameEn": "oriole",
     "ipa": "/ˈɔːriəʊl/",
     "dialogue": {
-      "animalQuestion": "What time is it?",
-      "animalAnswer": "It is one o'clock. The oriole is here.",
-      "animalAnswerZh": "一点。。告诉黄莺时间。",
-      "officeQuestion": "What time is it now?",
-      "officeAnswer": "It is three o'clock.",
-      "officeAnswerZh": "三点。",
+      "animalQuestion": "When do orioles sing?",
+      "animalAnswer": "At sunrise. Tell me if you hear.",
+      "animalAnswerZh": "日出时，听到了告诉我。",
+      "officeQuestion": "When does it start?",
+      "officeAnswer": "At two. Tell guests to be early.",
+      "officeAnswerZh": "两点，告诉来宾早点到。",
       "focusVerb": "tell"
     }
   },
@@ -875,12 +875,12 @@
     "nameEn": "wolf",
     "ipa": "/wʊlf/",
     "dialogue": {
-      "animalQuestion": "How is it going?",
-      "animalAnswer": "The wolf is better today. It looks nice.",
-      "animalAnswerZh": "狼更好了。对着狼笑一笑。",
-      "officeQuestion": "How is it going?",
-      "officeAnswer": "The report is going good.",
-      "officeAnswerZh": "报告很好。",
+      "animalQuestion": "How is the wolf recovering?",
+      "animalAnswer": "Well. Smile and move slowly.",
+      "animalAnswerZh": "不错，面带微笑慢慢靠近。",
+      "officeQuestion": "How is the new hire doing?",
+      "officeAnswer": "Well. Just smile each day.",
+      "officeAnswerZh": "好，每天给他们一个微笑。",
       "focusVerb": "smile"
     }
   },
@@ -890,12 +890,12 @@
     "nameEn": "swan",
     "ipa": "/swɒn/",
     "dialogue": {
-      "animalQuestion": "Why is it here?",
-      "animalAnswer": "The swan is here because it can come.",
-      "animalAnswerZh": "天鹅会过来。",
-      "officeQuestion": "Why do we need the clock?",
-      "officeAnswer": "It helps us finish the email.",
-      "officeAnswerZh": "因为它能帮到邮件。",
+      "animalQuestion": "Why did swans come so close?",
+      "animalAnswer": "They come here for the bread.",
+      "animalAnswerZh": "它们来这里讨面包吃。",
+      "officeQuestion": "Why does finance come each week?",
+      "officeAnswer": "They come to track the budget.",
+      "officeAnswerZh": "他们来跟进预算情况。",
       "focusVerb": "come"
     }
   },
@@ -905,12 +905,12 @@
     "nameEn": "zebra",
     "ipa": "/ˈzebrə/",
     "dialogue": {
-      "animalQuestion": "What is this now?",
-      "animalAnswer": "It is a zebra. We can see it.",
-      "animalAnswerZh": "这是斑马。看看斑马。",
-      "officeQuestion": "What is this now?",
-      "officeAnswer": "It is the page.",
-      "officeAnswerZh": "这是页面。",
+      "animalQuestion": "What makes zebras unique?",
+      "animalAnswer": "You can see no two are alike.",
+      "animalAnswerZh": "你能看到没有两只相同。",
+      "officeQuestion": "What stands out in the proposal?",
+      "officeAnswer": "I can see three strong points.",
+      "officeAnswerZh": "我能看到三个亮点。",
       "focusVerb": "see"
     }
   },
@@ -920,12 +920,12 @@
     "nameEn": "fox",
     "ipa": "/fɒks/",
     "dialogue": {
-      "animalQuestion": "Where is it now?",
-      "animalAnswer": "The fox is down there. We can find it.",
-      "animalAnswerZh": "狐狸在下面。找找狐狸。",
-      "officeQuestion": "Where is the clock?",
-      "officeAnswer": "It is in the tray.",
-      "officeAnswerZh": "时钟在托盘里。",
+      "animalQuestion": "Where does the fox hide?",
+      "animalAnswer": "Hard to find. In a root den.",
+      "animalAnswerZh": "很难找，藏在树根下的窝里。",
+      "officeQuestion": "Where is the signed contract?",
+      "officeAnswer": "I need to find it. One moment.",
+      "officeAnswerZh": "我得找找，稍等一下。",
       "focusVerb": "find"
     }
   },
@@ -935,12 +935,12 @@
     "nameEn": "sparrow",
     "ipa": "/ˈspærəʊ/",
     "dialogue": {
-      "animalQuestion": "Who is that there?",
-      "animalAnswer": "That is the sparrow. We can see it.",
-      "animalAnswerZh": "那是麻雀。看看麻雀。",
-      "officeQuestion": "Who is that there?",
-      "officeAnswer": "That is the draft team lead.",
-      "officeAnswerZh": "那是草稿负责人。",
+      "animalQuestion": "Who feeds the sparrows?",
+      "animalAnswer": "My grandma. See her by the bench.",
+      "animalAnswerZh": "我奶奶，你能看见她在那边。",
+      "officeQuestion": "Who is the account contact?",
+      "officeAnswer": "I can see Jenny Lin in CRM.",
+      "officeAnswerZh": "我看了，CRM 里是 Jenny。",
       "focusVerb": "see"
     }
   },
@@ -950,12 +950,12 @@
     "nameEn": "hedgehog",
     "ipa": "/ˈhedʒhɒɡ/",
     "dialogue": {
-      "animalQuestion": "Which one is it?",
-      "animalAnswer": "This is the hedgehog. Pick this one.",
-      "animalAnswerZh": "选刺猬。就是这个。",
-      "officeQuestion": "Which one do we use?",
-      "officeAnswer": "Use this copy now.",
-      "officeAnswerZh": "用这个复印件。",
+      "animalQuestion": "Which one curls up fastest?",
+      "animalAnswer": "Pick the small brown one.",
+      "animalAnswerZh": "选那只小棕色的。",
+      "officeQuestion": "Which vendor do we choose?",
+      "officeAnswer": "Pick the faster delivery one.",
+      "officeAnswerZh": "选交期更快的那家。",
       "focusVerb": "pick"
     }
   },
@@ -965,12 +965,12 @@
     "nameEn": "leopard",
     "ipa": "/ˈlepəd/",
     "dialogue": {
-      "animalQuestion": "What color is it?",
-      "animalAnswer": "The leopard is black. Look at it.",
-      "animalAnswerZh": "豹是黑色的。看看豹。",
-      "officeQuestion": "What color is the slide?",
-      "officeAnswer": "The slide is blue.",
-      "officeAnswerZh": "幻灯片是蓝色的。",
+      "animalQuestion": "What color is the leopard?",
+      "animalAnswer": "Golden. Look at the dark spots.",
+      "animalAnswerZh": "金黄色，看看背上的斑点。",
+      "officeQuestion": "What does the chart show?",
+      "officeAnswer": "Look at the trend. It is up.",
+      "officeAnswerZh": "看趋势线，在稳步上涨。",
       "focusVerb": "look"
     }
   },
@@ -980,12 +980,12 @@
     "nameEn": "woodpecker",
     "ipa": "/ˈwʊdpekə/",
     "dialogue": {
-      "animalQuestion": "How many are here?",
-      "animalAnswer": "four woodpeckers are here. Count them now.",
-      "animalAnswerZh": "四只啄木鸟。数数啄木鸟。",
-      "officeQuestion": "How many files do we need?",
-      "officeAnswer": "We need two files.",
-      "officeAnswerZh": "我们需要两份文件。",
+      "animalQuestion": "How many are in that tree?",
+      "animalAnswer": "I can count at least three.",
+      "animalAnswerZh": "我能数到至少三只。",
+      "officeQuestion": "How many sign-offs do we need?",
+      "officeAnswer": "Let me count. Two more.",
+      "officeAnswerZh": "让我数数，还差两个。",
       "focusVerb": "count"
     }
   },
@@ -995,12 +995,12 @@
     "nameEn": "sea lion",
     "ipa": "/siː ˈlaɪən/",
     "dialogue": {
-      "animalQuestion": "Is it yours now?",
-      "animalAnswer": "Yes, it is my sea lion. I can hold it.",
-      "animalAnswerZh": "对，这是我的海狮。拿着海狮。",
-      "officeQuestion": "Is this desk yours?",
-      "officeAnswer": "Yes, it is mine.",
-      "officeAnswerZh": "对，这是我的。",
+      "animalQuestion": "Is that sea lion trained?",
+      "animalAnswer": "Yes. The trainer can hold a fish.",
+      "animalAnswerZh": "是的，训练师能举起整条鱼。",
+      "officeQuestion": "Can you hold my slot for me?",
+      "officeAnswer": "Yes, I will hold it for you.",
+      "officeAnswerZh": "好，我帮你占着那个位置。",
       "focusVerb": "hold"
     }
   },
@@ -1010,12 +1010,12 @@
     "nameEn": "butterfly fish",
     "ipa": "/ˈbʌtəflaɪ fɪʃ/",
     "dialogue": {
-      "animalQuestion": "Do you want it?",
-      "animalAnswer": "Yes, I want the butterfly fish now.",
-      "animalAnswerZh": "想要这个蝴蝶鱼。",
-      "officeQuestion": "Do you want this client?",
-      "officeAnswer": "Yes, I want it now.",
-      "officeAnswerZh": "要，我现在就要。",
+      "animalQuestion": "Do you want one in your tank?",
+      "animalAnswer": "I want one but water is tricky.",
+      "animalAnswerZh": "想养，但水质要求很严。",
+      "officeQuestion": "Do you want to join the launch?",
+      "officeAnswer": "I definitely want to. Count me.",
+      "officeAnswerZh": "肯定想，算我一个。",
       "focusVerb": "want"
     }
   },
@@ -1025,12 +1025,12 @@
     "nameEn": "clownfish",
     "ipa": "/ˈklaʊnfɪʃ/",
     "dialogue": {
-      "animalQuestion": "Would you like it?",
-      "animalAnswer": "Yes, I would like the clownfish.",
-      "animalAnswerZh": "好呀，我喜欢这个小丑鱼。",
-      "officeQuestion": "Would you like this paper?",
-      "officeAnswer": "Yes, please send it.",
-      "officeAnswerZh": "好，请发给我。",
+      "animalQuestion": "Would you like to learn more?",
+      "animalAnswer": "Yes, I would like to know more.",
+      "animalAnswerZh": "想了解，它们很有趣。",
+      "officeQuestion": "Would you like a walkthrough?",
+      "officeAnswer": "I would. After lunch works.",
+      "officeAnswerZh": "好的，午饭后进行吧。",
       "focusVerb": "like"
     }
   },
@@ -1040,12 +1040,12 @@
     "nameEn": "kangaroo",
     "ipa": "/ˌkæŋɡəˈruː/",
     "dialogue": {
-      "animalQuestion": "What do you need now?",
-      "animalAnswer": "I need the kangaroo now.",
-      "animalAnswerZh": "我现在需要袋鼠。",
-      "officeQuestion": "What do you need now?",
-      "officeAnswer": "I need the note.",
-      "officeAnswerZh": "我现在需要便签。",
+      "animalQuestion": "What does a joey need most?",
+      "animalAnswer": "It needs warmth and milk.",
+      "animalAnswerZh": "它需要温暖和母乳。",
+      "officeQuestion": "What does this project need?",
+      "officeAnswer": "We need budget and two devs.",
+      "officeAnswerZh": "需要预算和两名开发者。",
       "focusVerb": "need"
     }
   },
@@ -1055,12 +1055,12 @@
     "nameEn": "butterfly",
     "ipa": "/ˈbʌtəflaɪ/",
     "dialogue": {
-      "animalQuestion": "Do you like it?",
-      "animalAnswer": "Yes, I really like the butterfly.",
-      "animalAnswerZh": "对，我很喜欢蝴蝶。",
-      "officeQuestion": "Do you like this card?",
-      "officeAnswer": "Yes, it looks very clear.",
-      "officeAnswerZh": "喜欢，看起来很清楚。",
+      "animalQuestion": "Do you love butterflies?",
+      "animalAnswer": "I love each one's pattern.",
+      "animalAnswerZh": "我爱每只蝴蝶的花纹。",
+      "officeQuestion": "Do you love working from home?",
+      "officeAnswer": "I love both. Depends on the day.",
+      "officeAnswerZh": "都喜欢，看当天情况吧。",
       "focusVerb": "love"
     }
   },
@@ -1070,12 +1070,12 @@
     "nameEn": "donkey",
     "ipa": "/ˈdɒŋki/",
     "dialogue": {
-      "animalQuestion": "Are you ready now?",
-      "animalAnswer": "Yes, I am ready for the donkey.",
-      "animalAnswerZh": "好了，去看驴吧。",
-      "officeQuestion": "Are you ready for the meeting?",
-      "officeAnswer": "Yes, the plan is ready now.",
-      "officeAnswerZh": "好了，计划也准备好了。",
+      "animalQuestion": "Shall we go pet the donkey?",
+      "animalAnswer": "Yes, let us go. It is friendly.",
+      "animalAnswerZh": "好，走吧，它很友善。",
+      "officeQuestion": "Shall we go for a quick walk?",
+      "officeAnswer": "Let us go. Fresh air helps.",
+      "officeAnswerZh": "走吧，吹风总有好处。",
       "focusVerb": "go"
     }
   },
@@ -1085,12 +1085,12 @@
     "nameEn": "killerwhale",
     "ipa": "/ˈkɪləWeɪl/",
     "dialogue": {
-      "animalQuestion": "Can you help now?",
-      "animalAnswer": "Yes, I can help the killerwhale.",
-      "animalAnswerZh": "可以，帮帮虎鲸。",
-      "officeQuestion": "Can you help me?",
-      "officeAnswer": "Yes, I can check the chart.",
-      "officeAnswerZh": "可以，我来检查图表。",
+      "animalQuestion": "Can whales help each other hunt?",
+      "animalAnswer": "Yes, they corner prey together.",
+      "animalAnswerZh": "能，它们合作把猎物逼住。",
+      "officeQuestion": "Can you help with the summary?",
+      "officeAnswer": "I can help with the data.",
+      "officeAnswerZh": "数据部分我可以帮你。",
       "focusVerb": "help"
     }
   },
@@ -1100,12 +1100,12 @@
     "nameEn": "snail",
     "ipa": "/sneɪl/",
     "dialogue": {
-      "animalQuestion": "How do we do it?",
-      "animalAnswer": "We do it with the snail card.",
-      "animalAnswerZh": "我们和蜗牛一起做。",
-      "officeQuestion": "How do we do it?",
-      "officeAnswer": "First, open the file now.",
-      "officeAnswerZh": "先打开报告。",
+      "animalQuestion": "How does a snail survive?",
+      "animalAnswer": "It does it by staying patient.",
+      "animalAnswerZh": "靠着耐心稳步前进。",
+      "officeQuestion": "How do we meet the deadline?",
+      "officeAnswer": "We do it by cutting scope.",
+      "officeAnswerZh": "通过缩减范围来应对。",
       "focusVerb": "do"
     }
   },
@@ -1115,12 +1115,12 @@
     "nameEn": "mantis",
     "ipa": "/ˈmæntɪs/",
     "dialogue": {
-      "animalQuestion": "What are you doing?",
-      "animalAnswer": "I am playing with the mantis.",
-      "animalAnswerZh": "我在和螳螂一起玩。",
-      "officeQuestion": "What are you doing?",
-      "officeAnswer": "I am updating the email.",
-      "officeAnswerZh": "我在更新邮件。",
+      "animalQuestion": "What is the mantis doing?",
+      "animalAnswer": "Playing still, waiting for prey.",
+      "animalAnswerZh": "一动不动等猎物靠近。",
+      "officeQuestion": "What is the team doing?",
+      "officeAnswer": "Playing catch-up this week.",
+      "officeAnswerZh": "这周在追赶进度。",
       "focusVerb": "play"
     }
   },
@@ -1130,12 +1130,12 @@
     "nameEn": "sea gull",
     "ipa": "/siː ɡʌl/",
     "dialogue": {
-      "animalQuestion": "May I have it?",
-      "animalAnswer": "Yes, you may use the sea gull card.",
-      "animalAnswerZh": "可以，用海鸥卡。",
-      "officeQuestion": "May I use the room?",
-      "officeAnswer": "Yes, use it now.",
-      "officeAnswerZh": "可以，你现在用吧。",
+      "animalQuestion": "May I use your camera?",
+      "animalAnswer": "Sure. Use it carefully.",
+      "animalAnswerZh": "当然，小心用。",
+      "officeQuestion": "May I use the whiteboard?",
+      "officeAnswer": "Go ahead and use it.",
+      "officeAnswerZh": "去用吧，我刚擦干净了。",
       "focusVerb": "use"
     }
   },
@@ -1145,12 +1145,12 @@
     "nameEn": "pig",
     "ipa": "/pɪɡ/",
     "dialogue": {
-      "animalQuestion": "When is it now?",
-      "animalAnswer": "It is at three. The pig can wait.",
-      "animalAnswerZh": "三点。等猪。",
-      "officeQuestion": "When is the team review?",
-      "officeAnswer": "It is at three.",
-      "officeAnswerZh": "三点。",
+      "animalQuestion": "When will the pig be ready?",
+      "animalAnswer": "Two weeks. Just wait.",
+      "animalAnswerZh": "两周后，耐心等一等。",
+      "officeQuestion": "When are the audit results out?",
+      "officeAnswer": "Next month. Just wait.",
+      "officeAnswerZh": "下个月，等待就好了。",
       "focusVerb": "wait"
     }
   },
@@ -1160,12 +1160,12 @@
     "nameEn": "ladybug",
     "ipa": "/ˈleɪdibʌɡ/",
     "dialogue": {
-      "animalQuestion": "What time is it?",
-      "animalAnswer": "It is three o'clock. The ladybug is here.",
-      "animalAnswerZh": "三点。。告诉瓢虫时间。",
-      "officeQuestion": "What time is it now?",
-      "officeAnswer": "It is nine o'clock.",
-      "officeAnswerZh": "九点。",
+      "animalQuestion": "When do ladybugs come out?",
+      "animalAnswer": "Mid-morning. I will tell you.",
+      "animalAnswerZh": "上午中段，我看到告诉你。",
+      "officeQuestion": "When does the delivery come?",
+      "officeAnswer": "At three. Tell the front desk.",
+      "officeAnswerZh": "三点，告诉前台留意一下。",
       "focusVerb": "tell"
     }
   },
@@ -1175,12 +1175,12 @@
     "nameEn": "elephant",
     "ipa": "/ˈelɪfənt/",
     "dialogue": {
-      "animalQuestion": "How is it going?",
-      "animalAnswer": "The elephant is smooth today. It looks nice.",
-      "animalAnswerZh": "大象很顺利。对着大象笑一笑。",
-      "officeQuestion": "How is it going?",
-      "officeAnswer": "The phone is going fine.",
-      "officeAnswerZh": "电话不错。",
+      "animalQuestion": "How is the baby elephant?",
+      "animalAnswer": "Well. Smile when you approach.",
+      "animalAnswerZh": "很好，靠近时面带微笑。",
+      "officeQuestion": "How is morale after the change?",
+      "officeAnswer": "Better. Smile more. It helps.",
+      "officeAnswerZh": "在好转，多微笑，有用的。",
       "focusVerb": "smile"
     }
   },
@@ -1190,12 +1190,12 @@
     "nameEn": "globefish",
     "ipa": "/ˈɡləʊbfɪʃ/",
     "dialogue": {
-      "animalQuestion": "Why is it here?",
-      "animalAnswer": "The globefish is here because it can come.",
-      "animalAnswerZh": "河豚会过来。",
-      "officeQuestion": "Why do we need the desk?",
-      "officeAnswer": "It helps us finish the list.",
-      "officeAnswerZh": "因为它能帮到清单。",
+      "animalQuestion": "Why does it come up at dusk?",
+      "animalAnswer": "It comes up to feed then.",
+      "animalAnswerZh": "那时浮上来觅食。",
+      "officeQuestion": "Why does the CEO come here?",
+      "officeAnswer": "She comes to follow the work.",
+      "officeAnswerZh": "她来跟踪产品进展。",
       "focusVerb": "come"
     }
   }
