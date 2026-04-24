@@ -75,20 +75,22 @@ function cardHtml(card: AnimalCard, layout: PrintLayout) {
   const titleClass = isLongTitle(card, layout) ? " title-compact" : "";
   return `
     <article class="card ${rowSizeClass}">
-      <div class="title${titleClass}">
-        <span>${escapeHtml(normalizeText(card.nameZh))} · ${escapeHtml(normalizeText(card.nameEn))}</span>
-        <strong class="ipa">${escapeHtml(normalizeText(card.ipa))}</strong>
-        <span class="verb">V:<strong>${escapeHtml(normalizeText(verb))}</strong></span>
-      </div>
-      <div class="qa">
-        <div class="question">${highlightVerb(card.dialogue.animalQuestion, verb)}</div>
-        <div class="answer">${highlightVerb(card.dialogue.animalAnswer, verb)}</div>
-        <div class="zh">(${escapeHtml(normalizeText(card.dialogue.animalAnswerZh))})</div>
-      </div>
-      <div class="qa">
-        <div class="question">${highlightVerb(card.dialogue.officeQuestion, verb)}</div>
-        <div class="answer">${highlightVerb(card.dialogue.officeAnswer, verb)}</div>
-        <div class="zh">(${escapeHtml(normalizeText(card.dialogue.officeAnswerZh))})</div>
+      <div class="card-content">
+        <div class="title${titleClass}">
+          <span>${escapeHtml(normalizeText(card.nameZh))} · ${escapeHtml(normalizeText(card.nameEn))}</span>
+          <strong class="ipa">${escapeHtml(normalizeText(card.ipa))}</strong>
+          <span class="verb">V:<strong>${escapeHtml(normalizeText(verb))}</strong></span>
+        </div>
+        <div class="qa">
+          <div class="question">${highlightVerb(card.dialogue.animalQuestion, verb)}</div>
+          <div class="answer">${highlightVerb(card.dialogue.animalAnswer, verb)}</div>
+          <div class="zh">(${escapeHtml(normalizeText(card.dialogue.animalAnswerZh))})</div>
+        </div>
+        <div class="qa">
+          <div class="question">${highlightVerb(card.dialogue.officeQuestion, verb)}</div>
+          <div class="answer">${highlightVerb(card.dialogue.officeAnswer, verb)}</div>
+          <div class="zh">(${escapeHtml(normalizeText(card.dialogue.officeAnswerZh))})</div>
+        </div>
       </div>
     </article>`;
 }
@@ -101,7 +103,10 @@ function pageHtml(pageCards: AnimalCard[], layout: PrintLayout) {
   return `
     <section class="page layout-${layout}">
       ${cells
-        .map((card) => `<div class="cell">${card ? cardHtml(card, layout) : ""}</div>`)
+        .map((card, index) => {
+          const columnClass = index % config.cols === 0 ? " first-column" : "";
+          return `<div class="cell${columnClass}">${card ? cardHtml(card, layout) : ""}</div>`;
+        })
         .join("")}
     </section>`;
 }
@@ -175,9 +180,22 @@ function html(cards: AnimalCard[], layout: PrintLayout) {
           padding: ${contentPadding};
           display: flex;
           flex-direction: column;
-          justify-content: flex-start;
+          justify-content: center;
+          text-align: left;
           overflow: hidden;
           background: #fff;
+        }
+
+        .card-content {
+          max-width: 100%;
+        }
+
+        .first-column .card {
+          align-items: flex-end;
+        }
+
+        .first-column .card-content {
+          width: fit-content;
         }
 
         .title {
@@ -186,6 +204,7 @@ function html(cards: AnimalCard[], layout: PrintLayout) {
           flex-wrap: nowrap;
           font-weight: 700;
           gap: 1.2mm;
+          justify-content: flex-start;
           line-height: 1.12;
           margin-bottom: ${layout === "37" ? "1.2mm" : "2.1mm"};
           min-width: 0;

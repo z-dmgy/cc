@@ -9,6 +9,8 @@ const animals = validateAnimalCards(animalsRaw as AnimalCard[]);
 
 export default function HomePage() {
   const [query, setQuery] = useState("");
+  const [previewLayout, setPreviewLayout] = useState<"37" | "49">("37");
+  const [showPreview, setShowPreview] = useState(false);
 
   function exportPdf(layout: "37" | "49") {
     window.location.href = `/api/export-pdf?layout=${layout}`;
@@ -28,6 +30,8 @@ export default function HomePage() {
     });
   }, [query]);
 
+  const previewUrl = `/print?layout=${previewLayout}`;
+
   return (
     <main>
       <h1>动物卡片学习站</h1>
@@ -46,7 +50,38 @@ export default function HomePage() {
         <button className="button" type="button" onClick={() => exportPdf("49")}>
           导出 PDF 49
         </button>
+        <button className="button secondary" type="button" onClick={() => setShowPreview((value) => !value)}>
+          {showPreview ? "隐藏预览" : "预览打印"}
+        </button>
       </div>
+
+      {showPreview ? (
+        <section className="preview-panel" aria-label="PDF 打印预览">
+          <div className="preview-toolbar">
+            <div>
+              <h2>打印预览</h2>
+              <p className="preview-note">直接预览 PDF 使用的打印页面，不需要先导出。</p>
+            </div>
+            <div className="preview-actions">
+              <button
+                className={`button ${previewLayout === "37" ? "" : "secondary"}`}
+                type="button"
+                onClick={() => setPreviewLayout("37")}
+              >
+                37 布局
+              </button>
+              <button
+                className={`button ${previewLayout === "49" ? "" : "secondary"}`}
+                type="button"
+                onClick={() => setPreviewLayout("49")}
+              >
+                49 布局
+              </button>
+            </div>
+          </div>
+          <iframe className="print-preview" title={`PDF 打印预览 ${previewLayout}`} src={previewUrl} />
+        </section>
+      ) : null}
 
       <section className="grid">
         {filtered.map((animal) => (
